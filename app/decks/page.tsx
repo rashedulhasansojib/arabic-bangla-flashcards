@@ -10,7 +10,7 @@ import {
 } from '@/components/ui/card';
 import { Input } from '@/components/ui/input';
 import { useToast } from '@/hooks/use-toast';
-import { getDueCards } from '@/lib/spaced-repetition';
+import { getDueCards, getSessionCards } from '@/lib/spaced-repetition';
 import { getCards, getDecks, setDecks } from '@/lib/storage';
 import type { Deck, Card as FlashCard } from '@/lib/types';
 import { BookOpen, Edit, Play, Plus, Search, Trash2 } from 'lucide-react';
@@ -44,6 +44,11 @@ export default function DecksPage() {
 		};
 	};
 
+	const getSessionCardsForDeck = (deck: Deck) => {
+		const deckCards = cards.filter((card) => deck.cardIds.includes(card.id));
+		return getSessionCards(deckCards, 10);
+	};
+
 	const handleDeleteDeck = (deckId: string) => {
 		if (confirm('Are you sure you want to delete this deck?')) {
 			const updatedDecks = decks.filter((d) => d.id !== deckId);
@@ -54,6 +59,30 @@ export default function DecksPage() {
 				description: 'The deck has been removed from your collection.',
 			});
 		}
+	};
+
+	const handleCreateDeck = () => {
+		const deckName = prompt('Enter deck name:');
+		if (!deckName || !deckName.trim()) return;
+
+		const deckDescription = prompt('Enter deck description (optional):') || '';
+
+		const newDeck: Deck = {
+			id: Date.now().toString(),
+			name: deckName.trim(),
+			description: deckDescription.trim(),
+			cardIds: [],
+			createdAt: new Date().toISOString(),
+		};
+
+		const updatedDecks = [...decks, newDeck];
+		setDecks(updatedDecks);
+		setDecksState(updatedDecks);
+
+		toast({
+			title: 'Deck created',
+			description: `"${deckName}" has been added to your collection.`,
+		});
 	};
 
 	const filteredDecks = decks.filter((deck) =>
@@ -132,7 +161,10 @@ export default function DecksPage() {
 						</div>
 					)}
 				</div>
-				<Button className="group-create hover:scale-105 transition-all duration-300 hover:shadow-lg">
+				<Button 
+					className="group-create hover:scale-105 transition-all duration-300 hover:shadow-lg"
+					onClick={handleCreateDeck}
+				>
 					<Plus className="mr-2 h-4 w-4 group-create-hover:rotate-90 transition-transform duration-300" />
 					Create Deck
 				</Button>
@@ -150,7 +182,7 @@ export default function DecksPage() {
 								: 'Create your first deck to get started'}
 						</p>
 						{!searchQuery && (
-							<Button>
+							<Button onClick={handleCreateDeck}>
 								<Plus className="mr-2 h-4 w-4" />
 								Create Deck
 							</Button>
@@ -161,6 +193,7 @@ export default function DecksPage() {
 				<div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
 					{filteredDecks.map((deck, index) => {
 						const stats = getDeckStats(deck);
+						const sessionCards = getSessionCardsForDeck(deck);
 						const completionRate =
 							stats.total > 0
 								? Math.round((stats.mastered / stats.total) * 100)
@@ -291,10 +324,15 @@ export default function DecksPage() {
 												variant="outline"
 												className="w-full group-quiz hover:scale-105 transition-all duration-300 hover:shadow-md disabled:opacity-50"
 												size="sm"
-												disabled={stats.due === 0}
+												disabled={sessionCards.length === 0}
 											>
 												<Play className="mr-2 h-4 w-4 group-quiz-hover:scale-110 transition-transform duration-300" />
 												Study
+												{sessionCards.length > 0 && (
+													<span className="ml-1 px-1.5 py-0.5 bg-primary/20 rounded-full text-xs font-bold">
+														{sessionCards.length}
+													</span>
+												)}
 											</Button>
 										</Link>
 									</div>
