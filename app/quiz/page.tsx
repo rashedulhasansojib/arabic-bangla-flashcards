@@ -44,11 +44,13 @@ export default function QuizPage() {
 	const [currentOptions, setCurrentOptions] = useState<
 		{ text: string; isCorrect: boolean }[]
 	>([]);
-	const [sessionAnswers, setSessionAnswers] = useState<{
-		cardId: string;
-		correct: boolean;
-		timeSpent: number;
-	}[]>([]);
+	const [sessionAnswers, setSessionAnswers] = useState<
+		{
+			cardId: string;
+			correct: boolean;
+			timeSpent: number;
+		}[]
+	>([]);
 	const [answerStartTime, setAnswerStartTime] = useState<Date | null>(null);
 
 	useEffect(() => {
@@ -100,11 +102,14 @@ export default function QuizPage() {
 		// Record the answer with timing
 		if (currentCard && answerStartTime) {
 			const timeSpent = Date.now() - answerStartTime.getTime();
-			setSessionAnswers(prev => [...prev, {
-				cardId: currentCard.id,
-				correct,
-				timeSpent
-			}]);
+			setSessionAnswers((prev) => [
+				...prev,
+				{
+					cardId: currentCard.id,
+					correct,
+					timeSpent,
+				},
+			]);
 		}
 
 		// Show result with a slight delay for better UX
@@ -130,11 +135,14 @@ export default function QuizPage() {
 		// Record the answer with timing
 		if (currentCard && answerStartTime) {
 			const timeSpent = Date.now() - answerStartTime.getTime();
-			setSessionAnswers(prev => [...prev, {
-				cardId: currentCard.id,
-				correct,
-				timeSpent
-			}]);
+			setSessionAnswers((prev) => [
+				...prev,
+				{
+					cardId: currentCard.id,
+					correct,
+					timeSpent,
+				},
+			]);
 		}
 
 		// Show result with a slight delay for better UX
@@ -304,7 +312,7 @@ export default function QuizPage() {
 				) : (
 					showResult && (
 						<Button size="lg" className="w-full" onClick={handleContinue}>
-							Continue
+							Next Question
 							<ArrowRight className="ml-2 h-5 w-5" />
 						</Button>
 					)
@@ -312,15 +320,15 @@ export default function QuizPage() {
 			</div>
 
 			{/* Keyboard Shortcuts Hint */}
-			<Card className="mt-6 border-dashed">
-				<CardContent className="p-4">
-					<p className="text-center text-xs text-muted-foreground">
-						{quizMode === 'flashcard'
-							? 'Rate your recall: 1 (Again) • 2 (Hard) • 3 (Good) • 4 (Easy)'
-							: 'Press Enter to continue'}
-					</p>
-				</CardContent>
-			</Card>
+			{quizMode === 'flashcard' && (
+				<Card className="mt-6 border-dashed">
+					<CardContent className="p-4">
+						<p className="text-center text-xs text-muted-foreground">
+							Rate your recall: 1 (Again) • 2 (Hard) • 3 (Good) • 4 (Easy)
+						</p>
+					</CardContent>
+				</Card>
+			)}
 		</div>
 	);
 }

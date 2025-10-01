@@ -50,19 +50,19 @@ export default function HomePage() {
 	}
 
 	return (
-		<div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
+		<div className="mx-auto max-w-7xl px-4 py-4 sm:py-8 sm:px-6 lg:px-8">
 			{/* Hero Section */}
-			<div className="mb-8 text-center">
-				<h1 className="text-4xl font-bold tracking-tight sm:text-5xl">
+			<div className="mb-6 sm:mb-8 text-center">
+				<h1 className="text-2xl font-bold tracking-tight sm:text-4xl lg:text-5xl">
 					Ready to learn Arabic?
 				</h1>
-				<p className="mt-4 text-lg text-muted-foreground">
+				<p className="mt-2 text-base text-muted-foreground sm:mt-4 sm:text-lg">
 					Master vocabulary with intelligent spaced repetition
 				</p>
 			</div>
 
 			{/* Quick Stats */}
-			<div className="mb-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+			<div className="mb-6 grid gap-3 sm:mb-8 sm:gap-4 sm:grid-cols-2 lg:grid-cols-4">
 				<StatCard
 					title="Due Words"
 					value={dueCards.length}
@@ -90,21 +90,21 @@ export default function HomePage() {
 			</div>
 
 			{/* Main Action Card */}
-			<Card className="mb-8">
-				<CardHeader>
-					<CardTitle>Start Your Study Session</CardTitle>
-					<CardDescription>
+			<Card className="mb-6 sm:mb-8">
+				<CardHeader className="pb-4">
+					<CardTitle className="text-lg sm:text-xl">Start Your Study Session</CardTitle>
+					<CardDescription className="text-sm">
 						{dueCards.length > 0
 							? `You have ${dueCards.length} words ready to review`
 							: 'Great job! No words due right now'}
 					</CardDescription>
 				</CardHeader>
-				<CardContent>
-					<div className="flex flex-col gap-4 sm:flex-row">
+				<CardContent className="pt-0">
+					<div className="flex flex-col gap-3 sm:flex-row sm:gap-4">
 						<Link href="/quiz" className="flex-1">
 							<Button
 								size="lg"
-								className="w-full"
+								className="w-full h-12 text-base font-semibold"
 								disabled={dueCards.length === 0}
 							>
 								<Play className="mr-2 h-5 w-5" />
@@ -115,7 +115,7 @@ export default function HomePage() {
 							<Button
 								size="lg"
 								variant="outline"
-								className="w-full bg-transparent"
+								className="w-full h-12 text-base font-semibold bg-transparent"
 							>
 								<BookOpen className="mr-2 h-5 w-5" />
 								Browse Decks
@@ -126,7 +126,7 @@ export default function HomePage() {
 			</Card>
 
 			{/* Progress Overview */}
-			<div className="grid gap-6 lg:grid-cols-2">
+			<div className="grid gap-4 sm:gap-6 lg:grid-cols-2">
 				<Card>
 					<CardHeader>
 						<CardTitle>Learning Progress</CardTitle>
