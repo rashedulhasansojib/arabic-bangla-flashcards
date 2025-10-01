@@ -52,13 +52,40 @@ export default function HomePage() {
 	return (
 		<div className="mx-auto max-w-7xl px-4 py-4 sm:py-8 sm:px-6 lg:px-8">
 			{/* Hero Section */}
-			<div className="mb-6 sm:mb-8 text-center">
-				<h1 className="text-2xl font-bold tracking-tight sm:text-4xl lg:text-5xl">
-					Ready to learn Arabic?
-				</h1>
-				<p className="mt-2 text-base text-muted-foreground sm:mt-4 sm:text-lg">
-					Master vocabulary with intelligent spaced repetition
-				</p>
+			<div className="relative mb-6 sm:mb-8 text-center overflow-hidden">
+				{/* Gradient Background */}
+				<div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-accent/5 rounded-3xl -z-10" />
+
+				{/* Floating Elements */}
+				<div className="absolute top-4 left-4 w-2 h-2 bg-primary/20 rounded-full animate-pulse" />
+				<div className="absolute top-8 right-8 w-1 h-1 bg-accent/30 rounded-full animate-pulse delay-1000" />
+				<div className="absolute bottom-4 left-8 w-1.5 h-1.5 bg-primary/15 rounded-full animate-pulse delay-500" />
+				<div className="absolute bottom-8 right-4 w-1 h-1 bg-accent/25 rounded-full animate-pulse delay-1500" />
+
+				<div className="relative">
+					<h1 className="text-2xl font-bold tracking-tight sm:text-4xl lg:text-5xl bg-gradient-to-r from-foreground to-foreground/80 bg-clip-text">
+						Ready to learn Arabic?
+					</h1>
+					<p className="mt-2 text-base text-muted-foreground sm:mt-4 sm:text-lg max-w-2xl mx-auto">
+						Master vocabulary with intelligent spaced repetition
+					</p>
+
+					{/* Visual Indicators */}
+					<div className="mt-4 sm:mt-6 flex flex-wrap justify-center gap-2 sm:gap-4">
+						<div className="flex items-center gap-1.5 px-3 py-1.5 bg-primary/10 rounded-full text-xs font-medium text-primary">
+							<div className="w-2 h-2 bg-primary rounded-full animate-pulse" />
+							Spaced Repetition
+						</div>
+						<div className="flex items-center gap-1.5 px-3 py-1.5 bg-accent/10 rounded-full text-xs font-medium text-accent-foreground">
+							<div className="w-2 h-2 bg-accent-foreground rounded-full animate-pulse delay-500" />
+							Progress Tracking
+						</div>
+						<div className="flex items-center gap-1.5 px-3 py-1.5 bg-green-500/10 rounded-full text-xs font-medium text-green-600">
+							<div className="w-2 h-2 bg-green-500 rounded-full animate-pulse delay-1000" />
+							Mobile Friendly
+						</div>
+					</div>
+				</div>
 			</div>
 
 			{/* Quick Stats */}
@@ -90,9 +117,11 @@ export default function HomePage() {
 			</div>
 
 			{/* Main Action Card */}
-			<Card className="mb-6 sm:mb-8">
+			<Card className="mb-6 sm:mb-8 group hover:shadow-xl transition-all duration-300 border-2 hover:border-primary/20">
 				<CardHeader className="pb-4">
-					<CardTitle className="text-lg sm:text-xl">Start Your Study Session</CardTitle>
+					<CardTitle className="text-lg sm:text-xl group-hover:text-primary transition-colors duration-200">
+						Start Your Study Session
+					</CardTitle>
 					<CardDescription className="text-sm">
 						{dueCards.length > 0
 							? `You have ${dueCards.length} words ready to review`
@@ -104,20 +133,25 @@ export default function HomePage() {
 						<Link href="/quiz" className="flex-1">
 							<Button
 								size="lg"
-								className="w-full h-12 text-base font-semibold"
+								className="w-full h-12 text-base font-semibold bg-gradient-to-r from-primary to-primary/90 hover:from-primary/90 hover:to-primary shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-[1.02] group-hover:animate-pulse"
 								disabled={dueCards.length === 0}
 							>
-								<Play className="mr-2 h-5 w-5" />
+								<Play className="mr-2 h-5 w-5 group-hover:scale-110 transition-transform duration-200" />
 								Start Quiz
+								{dueCards.length > 0 && (
+									<span className="ml-2 px-2 py-0.5 bg-primary-foreground/20 rounded-full text-xs font-bold">
+										{dueCards.length}
+									</span>
+								)}
 							</Button>
 						</Link>
 						<Link href="/decks" className="flex-1">
 							<Button
 								size="lg"
 								variant="outline"
-								className="w-full h-12 text-base font-semibold bg-transparent"
+								className="w-full h-12 text-base font-semibold bg-transparent hover:bg-accent/50 hover:border-primary/50 transition-all duration-300 hover:scale-[1.02]"
 							>
-								<BookOpen className="mr-2 h-5 w-5" />
+								<BookOpen className="mr-2 h-5 w-5 group-hover:scale-110 transition-transform duration-200" />
 								Browse Decks
 							</Button>
 						</Link>

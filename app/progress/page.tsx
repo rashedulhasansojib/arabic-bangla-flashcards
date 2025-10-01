@@ -97,90 +97,122 @@ export default function ProgressPage() {
 
 	return (
 		<div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
-			<div className="mb-8">
-				<h1 className="text-3xl font-bold tracking-tight">Your Progress</h1>
-				<p className="mt-2 text-muted-foreground">
-					Track your learning journey and achievements
-				</p>
+			<div className="mb-8 relative overflow-hidden">
+				{/* Background gradient */}
+				<div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-accent/5 rounded-3xl -z-10" />
+
+				{/* Floating elements */}
+				<div className="absolute top-2 right-4 w-1 h-1 bg-primary/30 rounded-full animate-pulse" />
+				<div className="absolute top-6 right-8 w-1.5 h-1.5 bg-accent/20 rounded-full animate-pulse delay-500" />
+				<div className="absolute bottom-2 left-6 w-1 h-1 bg-primary/25 rounded-full animate-pulse delay-1000" />
+
+				<div className="relative">
+					<h1 className="text-3xl font-bold tracking-tight bg-gradient-to-r from-foreground to-foreground/80 bg-clip-text">
+						Your Progress
+					</h1>
+					<p className="mt-2 text-muted-foreground max-w-2xl">
+						Track your learning journey and achievements
+					</p>
+
+					{/* Progress indicators */}
+					<div className="mt-4 flex flex-wrap gap-2">
+						<div className="flex items-center gap-1.5 px-3 py-1.5 bg-primary/10 rounded-full text-xs font-medium text-primary">
+							<div className="w-2 h-2 bg-primary rounded-full animate-pulse" />
+							Learning Progress
+						</div>
+						<div className="flex items-center gap-1.5 px-3 py-1.5 bg-green-500/10 rounded-full text-xs font-medium text-green-600">
+							<div className="w-2 h-2 bg-green-500 rounded-full animate-pulse delay-500" />
+							Streak Tracking
+						</div>
+						<div className="flex items-center gap-1.5 px-3 py-1.5 bg-blue-500/10 rounded-full text-xs font-medium text-blue-600">
+							<div className="w-2 h-2 bg-blue-500 rounded-full animate-pulse delay-1000" />
+							Session History
+						</div>
+					</div>
+				</div>
 			</div>
 
 			{/* Key Metrics */}
 			<div className="mb-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-				<Card>
+				<Card className="group hover:shadow-lg transition-all duration-300 hover:scale-[1.02] border-2 hover:border-primary/20">
 					<CardContent className="p-6">
 						<div className="flex items-start justify-between">
 							<div>
-								<p className="text-sm font-medium text-muted-foreground">
+								<p className="text-sm font-medium text-muted-foreground group-hover:text-foreground/80 transition-colors duration-200">
 									Current Streak
 								</p>
-								<p className="mt-2 text-3xl font-bold">
+								<p className="mt-2 text-3xl font-bold bg-gradient-to-r from-foreground to-foreground/80 bg-clip-text group-hover:from-orange-600 group-hover:to-orange-500 transition-all duration-300">
 									{progress.currentStreak}
 								</p>
-								<p className="mt-1 text-xs text-muted-foreground">
+								<p className="mt-1 text-xs text-muted-foreground group-hover:text-foreground/70 transition-colors duration-200">
 									days in a row
 								</p>
 							</div>
-							<div className="flex h-12 w-12 items-center justify-center rounded-lg bg-orange-500/10">
-								<Flame className="h-6 w-6 text-orange-600" />
+							<div className="flex h-12 w-12 items-center justify-center rounded-lg bg-orange-500/10 group-hover:bg-orange-500/20 transition-all duration-300 group-hover:scale-110">
+								<Flame className="h-6 w-6 text-orange-600 group-hover:text-orange-500 transition-all duration-300" />
 							</div>
 						</div>
 					</CardContent>
 				</Card>
 
-				<Card>
+				<Card className="group hover:shadow-lg transition-all duration-300 hover:scale-[1.02] border-2 hover:border-primary/20">
 					<CardContent className="p-6">
 						<div className="flex items-start justify-between">
 							<div>
-								<p className="text-sm font-medium text-muted-foreground">
+								<p className="text-sm font-medium text-muted-foreground group-hover:text-foreground/80 transition-colors duration-200">
 									Longest Streak
 								</p>
-								<p className="mt-2 text-3xl font-bold">
+								<p className="mt-2 text-3xl font-bold bg-gradient-to-r from-foreground to-foreground/80 bg-clip-text group-hover:from-primary group-hover:to-primary/80 transition-all duration-300">
 									{progress.longestStreak}
 								</p>
-								<p className="mt-1 text-xs text-muted-foreground">
+								<p className="mt-1 text-xs text-muted-foreground group-hover:text-foreground/70 transition-colors duration-200">
 									best performance
 								</p>
 							</div>
-							<div className="flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10">
-								<Award className="h-6 w-6 text-primary" />
+							<div className="flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10 group-hover:bg-primary/20 transition-all duration-300 group-hover:scale-110">
+								<Award className="h-6 w-6 text-primary group-hover:text-primary/80 transition-all duration-300" />
 							</div>
 						</div>
 					</CardContent>
 				</Card>
 
-				<Card>
+				<Card className="group hover:shadow-lg transition-all duration-300 hover:scale-[1.02] border-2 hover:border-primary/20">
 					<CardContent className="p-6">
 						<div className="flex items-start justify-between">
 							<div>
-								<p className="text-sm font-medium text-muted-foreground">
+								<p className="text-sm font-medium text-muted-foreground group-hover:text-foreground/80 transition-colors duration-200">
 									Total Reviews
 								</p>
-								<p className="mt-2 text-3xl font-bold">
+								<p className="mt-2 text-3xl font-bold bg-gradient-to-r from-foreground to-foreground/80 bg-clip-text group-hover:from-blue-600 group-hover:to-blue-500 transition-all duration-300">
 									{progress.totalReviews}
 								</p>
-								<p className="mt-1 text-xs text-muted-foreground">all time</p>
+								<p className="mt-1 text-xs text-muted-foreground group-hover:text-foreground/70 transition-colors duration-200">
+									all time
+								</p>
 							</div>
-							<div className="flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10">
-								<TrendingUp className="h-6 w-6 text-primary" />
+							<div className="flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10 group-hover:bg-primary/20 transition-all duration-300 group-hover:scale-110">
+								<TrendingUp className="h-6 w-6 text-primary group-hover:text-primary/80 transition-all duration-300" />
 							</div>
 						</div>
 					</CardContent>
 				</Card>
 
-				<Card>
+				<Card className="group hover:shadow-lg transition-all duration-300 hover:scale-[1.02] border-2 hover:border-primary/20">
 					<CardContent className="p-6">
 						<div className="flex items-start justify-between">
 							<div>
-								<p className="text-sm font-medium text-muted-foreground">
+								<p className="text-sm font-medium text-muted-foreground group-hover:text-foreground/80 transition-colors duration-200">
 									Accuracy Rate
 								</p>
-								<p className="mt-2 text-3xl font-bold">{accuracyRate}%</p>
-								<p className="mt-1 text-xs text-muted-foreground">
+								<p className="mt-2 text-3xl font-bold bg-gradient-to-r from-foreground to-foreground/80 bg-clip-text group-hover:from-green-600 group-hover:to-green-500 transition-all duration-300">
+									{Math.round(accuracyRate)}%
+								</p>
+								<p className="mt-1 text-xs text-muted-foreground group-hover:text-foreground/70 transition-colors duration-200">
 									overall performance
 								</p>
 							</div>
-							<div className="flex h-12 w-12 items-center justify-center rounded-lg bg-green-500/10">
-								<Target className="h-6 w-6 text-green-600" />
+							<div className="flex h-12 w-12 items-center justify-center rounded-lg bg-green-500/10 group-hover:bg-green-500/20 transition-all duration-300 group-hover:scale-110">
+								<Target className="h-6 w-6 text-green-600 group-hover:text-green-500 transition-all duration-300" />
 							</div>
 						</div>
 					</CardContent>

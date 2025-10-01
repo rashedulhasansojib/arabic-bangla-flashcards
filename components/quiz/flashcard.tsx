@@ -25,35 +25,40 @@ export function Flashcard({
 		<div className="space-y-4">
 			<Card
 				className={cn(
-					'min-h-[250px] sm:min-h-[300px] cursor-pointer border-2 transition-all hover:border-primary hover:shadow-lg touch-manipulation bg-card shadow-sm',
-					isFlipped && 'bg-primary/15 border-primary shadow-lg'
+					'min-h-[250px] sm:min-h-[300px] cursor-pointer border-2 transition-all duration-500 hover:border-primary hover:shadow-xl touch-manipulation bg-card shadow-lg group perspective-1000',
+					isFlipped &&
+						'bg-gradient-to-br from-primary/15 to-primary/5 border-primary shadow-2xl rotate-y-180'
 				)}
 				onClick={() => setIsFlipped(!isFlipped)}
+				style={{
+					transformStyle: 'preserve-3d',
+					transform: isFlipped ? 'rotateY(180deg)' : 'rotateY(0deg)',
+				}}
 			>
-				<CardContent className="flex min-h-[250px] sm:min-h-[300px] flex-col items-center justify-center p-4 sm:p-8">
+				<CardContent className="flex min-h-[250px] sm:min-h-[300px] flex-col items-center justify-center p-4 sm:p-8 backface-hidden">
 					{!isFlipped ? (
-						<div className="text-center">
-							<p className="mb-3 sm:mb-4 text-xs sm:text-sm font-bold text-foreground uppercase tracking-wide">
+						<div className="text-center transform-gpu transition-all duration-500 group-hover:scale-105">
+							<p className="mb-3 sm:mb-4 text-xs sm:text-sm font-bold text-foreground uppercase tracking-wide group-hover:text-primary transition-colors duration-300">
 								Front
 							</p>
 							<p
-								className="arabic-text text-3xl sm:text-5xl font-black text-foreground drop-shadow-sm"
+								className="arabic-text text-3xl sm:text-5xl font-black text-foreground drop-shadow-lg group-hover:drop-shadow-xl transition-all duration-300"
 								dir="rtl"
 							>
 								{arabic}
 							</p>
 							{showTransliteration && transliteration && (
-								<p className="mt-3 sm:mt-4 text-base sm:text-lg text-foreground font-semibold">
+								<p className="mt-3 sm:mt-4 text-base sm:text-lg text-foreground font-semibold group-hover:text-primary/80 transition-colors duration-300">
 									{transliteration}
 								</p>
 							)}
 						</div>
 					) : (
-						<div className="text-center">
-							<p className="mb-3 sm:mb-4 text-xs sm:text-sm font-bold text-foreground uppercase tracking-wide">
+						<div className="text-center transform-gpu transition-all duration-500 group-hover:scale-105">
+							<p className="mb-3 sm:mb-4 text-xs sm:text-sm font-bold text-foreground uppercase tracking-wide group-hover:text-primary transition-colors duration-300">
 								Back
 							</p>
-							<p className="text-2xl sm:text-3xl font-black text-foreground drop-shadow-sm">
+							<p className="text-2xl sm:text-3xl font-black text-foreground drop-shadow-lg group-hover:drop-shadow-xl transition-all duration-300">
 								{bangla}
 							</p>
 						</div>
@@ -64,10 +69,10 @@ export function Flashcard({
 			<Button
 				variant="outline"
 				size="lg"
-				className="w-full h-12 sm:h-auto bg-background hover:bg-accent border-2 hover:border-primary transition-all touch-manipulation shadow-sm"
+				className="w-full h-12 sm:h-auto bg-background hover:bg-accent border-2 hover:border-primary transition-all duration-300 touch-manipulation shadow-sm hover:shadow-md hover:scale-[1.02] group"
 				onClick={() => setIsFlipped(!isFlipped)}
 			>
-				<RotateCw className="mr-2 h-5 w-5" />
+				<RotateCw className="mr-2 h-5 w-5 group-hover:rotate-180 transition-transform duration-300" />
 				<span className="text-base font-bold">Flip Card</span>
 			</Button>
 
