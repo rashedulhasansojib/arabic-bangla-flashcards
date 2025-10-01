@@ -207,6 +207,90 @@
 		transform: scale(1.02);
 	}
 
+	/* Grade button hover effects */
+	.group-grade:hover {
+		transform: scale(1.02);
+	}
+
+	.group-grade-hover:hover {
+		transform: scale(1.1);
+	}
+
+	/* Settings page hover effects */
+	.group-theme:hover {
+		transform: scale(1.005);
+	}
+
+	.group-theme-btn:hover {
+		transform: scale(1.1);
+	}
+
+	.group-export:hover {
+		transform: scale(1.02);
+	}
+
+	.group-import:hover {
+		transform: scale(1.02);
+	}
+
+	/* Decks page hover effects */
+	.group-deck:hover {
+		transform: scale(1.02);
+	}
+
+	.group-edit:hover {
+		transform: scale(1.1);
+	}
+
+	.group-delete:hover {
+		transform: scale(1.1);
+	}
+
+	.group-browse:hover {
+		transform: scale(1.05);
+	}
+
+	.group-quiz:hover {
+		transform: scale(1.05);
+	}
+
+	.group-search:hover {
+		transform: scale(1.01);
+	}
+
+	.group-create:hover {
+		transform: scale(1.05);
+	}
+
+	/* Individual deck page hover effects */
+	.group-back:hover {
+		transform: scale(1.05);
+	}
+
+	.group-edit:hover {
+		transform: scale(1.1);
+	}
+
+	.group-study:hover {
+		transform: scale(1.05);
+	}
+
+	.group-stats:hover {
+		transform: scale(1.02);
+	}
+
+	.group-card:hover {
+		transform: scale(1.01);
+	}
+
+	.group-empty:hover {
+		transform: scale(1.005);
+	}
+
+	.group-filter:hover {
+		transform: scale(1.01);
+	}
+
 	/* Prevent zoom on input focus on iOS */
 	@media screen and (-webkit-min-device-pixel-ratio: 0) {
 		select,
