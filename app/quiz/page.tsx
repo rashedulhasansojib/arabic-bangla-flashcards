@@ -4,6 +4,17 @@ import { Flashcard } from '@/components/quiz/flashcard';
 import { GradeButtons } from '@/components/quiz/grade-buttons';
 import { MultipleChoice } from '@/components/quiz/multiple-choice';
 import { TypeAnswer } from '@/components/quiz/type-answer';
+import {
+	AlertDialog,
+	AlertDialogAction,
+	AlertDialogCancel,
+	AlertDialogContent,
+	AlertDialogDescription,
+	AlertDialogFooter,
+	AlertDialogHeader,
+	AlertDialogTitle,
+	AlertDialogTrigger,
+} from '@/components/ui/alert-dialog';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Progress } from '@/components/ui/progress';
@@ -239,9 +250,38 @@ export default function QuizPage() {
 			{/* Header */}
 			<div className="mb-6 flex items-center justify-between">
 				<div className="flex items-center gap-4">
-					<Button variant="ghost" size="icon" onClick={() => router.push('/')}>
-						<X className="h-5 w-5" />
-					</Button>
+					<AlertDialog>
+						<AlertDialogTrigger asChild>
+							<Button
+								variant="ghost"
+								size="sm"
+								className="group relative bg-gradient-to-r from-red-500/10 to-red-600/10 border border-red-300/60 text-red-600 hover:from-red-500/20 hover:to-red-600/20 hover:text-red-700 hover:border-red-400/80 hover:shadow-lg transition-all duration-300 hover:scale-105 animate-pulse backdrop-blur-sm"
+								title="Exit Quiz - Return to Home"
+							>
+								<X className="h-4 w-4 transition-transform duration-200 group-hover:rotate-90" />
+								<span className="ml-1 text-xs font-medium">Exit</span>
+								<span className="sr-only">Exit Quiz</span>
+							</Button>
+						</AlertDialogTrigger>
+						<AlertDialogContent>
+							<AlertDialogHeader>
+								<AlertDialogTitle>Exit Quiz?</AlertDialogTitle>
+								<AlertDialogDescription>
+									Are you sure you want to exit the quiz? Your progress will be
+									saved, but you'll need to start over to continue studying.
+								</AlertDialogDescription>
+							</AlertDialogHeader>
+							<AlertDialogFooter>
+								<AlertDialogCancel>Continue Quiz</AlertDialogCancel>
+								<AlertDialogAction
+									onClick={() => router.push('/')}
+									className="bg-red-600 hover:bg-red-700 text-white"
+								>
+									Exit Quiz
+								</AlertDialogAction>
+							</AlertDialogFooter>
+						</AlertDialogContent>
+					</AlertDialog>
 					<div>
 						<p className="text-sm font-medium">
 							Word {currentIndex + 1} of {cards.length}
