@@ -1,7 +1,7 @@
 // Initialize default data from JSON
 
 import type { Card, Deck } from "./types"
-import { getCards, setCards, getDecks, setDecks } from "./storage"
+import { getCards, setCards, setDecks } from "./storage"
 import vocabularyData from "./vocabulary-data.json"
 
 function generateId(): string {
@@ -10,7 +10,7 @@ function generateId(): string {
 
 export function initializeDefaultData(): void {
   const existingCards = getCards()
-  const existingDecks = getDecks()
+  // const existingDecks = getDecks()
 
   // Only initialize if no data exists
   if (existingCards.length > 0) return

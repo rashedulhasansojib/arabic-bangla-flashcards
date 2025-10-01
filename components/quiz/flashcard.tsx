@@ -11,6 +11,8 @@ interface FlashcardProps {
 	bangla: string;
 	transliteration?: string;
 	showTransliteration: boolean;
+	isFlipped?: boolean;
+	onFlip?: (flipped: boolean) => void;
 }
 
 export function Flashcard({
@@ -18,24 +20,35 @@ export function Flashcard({
 	bangla,
 	transliteration,
 	showTransliteration,
+	isFlipped: externalIsFlipped,
+	onFlip,
 }: FlashcardProps) {
-	const [isFlipped, setIsFlipped] = useState(false);
+	const [internalIsFlipped, setInternalIsFlipped] = useState(false);
+
+	// Use external state if provided, otherwise use internal state
+	const isFlipped =
+		externalIsFlipped !== undefined ? externalIsFlipped : internalIsFlipped;
+
+	const handleFlip = () => {
+		const newFlipped = !isFlipped;
+		if (onFlip) {
+			onFlip(newFlipped);
+		} else {
+			setInternalIsFlipped(newFlipped);
+		}
+	};
 
 	return (
 		<div className="space-y-4">
 			<Card
 				className={cn(
-					'min-h-[250px] sm:min-h-[300px] cursor-pointer border-2 transition-all duration-500 hover:border-primary hover:shadow-xl touch-manipulation bg-card shadow-lg group perspective-1000',
+					'min-h-[250px] sm:min-h-[300px] cursor-pointer border-2 transition-all duration-500 hover:border-primary hover:shadow-xl touch-manipulation bg-card shadow-lg group',
 					isFlipped &&
-						'bg-gradient-to-br from-primary/15 to-primary/5 border-primary shadow-2xl rotate-y-180'
+						'bg-gradient-to-br from-primary/15 to-primary/5 border-primary shadow-2xl'
 				)}
-				onClick={() => setIsFlipped(!isFlipped)}
-				style={{
-					transformStyle: 'preserve-3d',
-					transform: isFlipped ? 'rotateY(180deg)' : 'rotateY(0deg)',
-				}}
+				onClick={handleFlip}
 			>
-				<CardContent className="flex min-h-[250px] sm:min-h-[300px] flex-col items-center justify-center p-4 sm:p-8 backface-hidden">
+				<CardContent className="flex min-h-[250px] sm:min-h-[300px] flex-col items-center justify-center p-4 sm:p-8">
 					{!isFlipped ? (
 						<div className="text-center transform-gpu transition-all duration-500 group-hover:scale-105">
 							<p className="mb-3 sm:mb-4 text-xs sm:text-sm font-bold text-foreground uppercase tracking-wide group-hover:text-primary transition-colors duration-300">
@@ -70,7 +83,7 @@ export function Flashcard({
 				variant="outline"
 				size="lg"
 				className="w-full h-12 sm:h-auto bg-background hover:bg-accent border-2 hover:border-primary transition-all duration-300 touch-manipulation shadow-sm hover:shadow-md hover:scale-[1.02] group"
-				onClick={() => setIsFlipped(!isFlipped)}
+				onClick={handleFlip}
 			>
 				<RotateCw className="mr-2 h-5 w-5 group-hover:rotate-180 transition-transform duration-300" />
 				<span className="text-base font-bold">Flip Card</span>

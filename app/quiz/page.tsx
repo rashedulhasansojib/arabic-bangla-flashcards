@@ -40,7 +40,7 @@ export default function QuizPage() {
 	const [cards, setCards] = useState<FlashCard[]>([]);
 	const [currentIndex, setCurrentIndex] = useState(0);
 	const [selectedAnswer, setSelectedAnswer] = useState<number | null>(null);
-	const [typedAnswer, setTypedAnswer] = useState('');
+	// const [typedAnswer, setTypedAnswer] = useState('');
 	const [showResult, setShowResult] = useState(false);
 	const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
 	const [correctCount, setCorrectCount] = useState(0);
@@ -63,6 +63,7 @@ export default function QuizPage() {
 		}[]
 	>([]);
 	const [answerStartTime, setAnswerStartTime] = useState<Date | null>(null);
+	const [isFlipped, setIsFlipped] = useState(false);
 
 	useEffect(() => {
 		const settings = getSettings();
@@ -137,7 +138,6 @@ export default function QuizPage() {
 	};
 
 	const handleTypeAnswer = (answer: string) => {
-		setTypedAnswer(answer);
 		setIsChecking(true);
 
 		const correct = checkAnswer(answer, currentCard.bangla);
@@ -189,12 +189,13 @@ export default function QuizPage() {
 		if (currentIndex < cards.length - 1) {
 			setCurrentIndex((prev) => prev + 1);
 			setSelectedAnswer(null);
-			setTypedAnswer('');
+			// setTypedAnswer('');
 			setShowResult(false);
 			setIsCorrect(null);
 			setIsChecking(false);
 			setCurrentOptions([]); // Reset options for next question
 			setAnswerStartTime(new Date()); // Reset answer start time
+			setIsFlipped(false); // Reset flashcard flip state
 		} else {
 			// Quiz complete - save session
 			if (sessionStartTime) {
@@ -342,6 +343,8 @@ export default function QuizPage() {
 					bangla={currentCard.bangla}
 					transliteration={currentCard.transliteration}
 					showTransliteration={showTransliteration}
+					isFlipped={isFlipped}
+					onFlip={setIsFlipped}
 				/>
 			)}
 

@@ -40,8 +40,8 @@ function getItem<T>(key: string, defaultValue: T): T {
 	try {
 		const item = localStorage.getItem(key);
 		return item ? JSON.parse(item) : defaultValue;
-	} catch (error) {
-		console.error(`Error reading ${key} from localStorage:`, error);
+	} catch {
+		// console.error(`Error reading ${key} from localStorage:`, error);
 		return defaultValue;
 	}
 }
@@ -51,8 +51,8 @@ function setItem<T>(key: string, value: T): void {
 
 	try {
 		localStorage.setItem(key, JSON.stringify(value));
-	} catch (error) {
-		console.error(`Error writing ${key} to localStorage:`, error);
+	} catch {
+		// console.error(`Error writing ${key} to localStorage:`, error);
 	}
 }
 
@@ -223,8 +223,8 @@ export function importData(jsonString: string): boolean {
 		if (data.sessions) setItem(STORAGE_KEYS.SESSIONS, data.sessions);
 
 		return true;
-	} catch (error) {
-		console.error('Error importing data:', error);
+	} catch {
+		// console.error('Error importing data:', error);
 		return false;
 	}
 }
