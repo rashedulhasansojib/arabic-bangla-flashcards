@@ -31,11 +31,12 @@ import {
 } from '@/lib/storage';
 import type { Card as FlashCard, QuizGrade } from '@/lib/types';
 import { ArrowRight, Check, X } from 'lucide-react';
-import { useRouter } from 'next/navigation';
+import { useRouter, useSearchParams } from 'next/navigation';
 import { useEffect, useState } from 'react';
 
 export default function QuizPage() {
 	const router = useRouter();
+	const searchParams = useSearchParams();
 	const { toast } = useToast();
 	const [cards, setCards] = useState<FlashCard[]>([]);
 	const [currentIndex, setCurrentIndex] = useState(0);
@@ -65,6 +66,20 @@ export default function QuizPage() {
 	const [answerStartTime, setAnswerStartTime] = useState<Date | null>(null);
 	const [isFlipped, setIsFlipped] = useState(false);
 
+	// Helper function to handle redirects based on query parameters
+	const handleRedirect = () => {
+		const returnTo = searchParams.get('returnTo');
+		const deckId = searchParams.get('deckId');
+
+		if (returnTo === 'deck' && deckId) {
+			router.push(`/decks/${deckId}`);
+		} else if (returnTo === 'decks') {
+			router.push('/decks');
+		} else {
+			router.push('/');
+		}
+	};
+
 	useEffect(() => {
 		const settings = getSettings();
 		const allCards = getCards();
@@ -77,7 +92,7 @@ export default function QuizPage() {
 				title: 'No words due',
 				description: 'Great job! Come back later for more reviews.',
 			});
-			router.push('/');
+			handleRedirect();
 			return;
 		}
 
@@ -214,7 +229,9 @@ export default function QuizPage() {
 				title: 'Quiz Complete!',
 				description: `You got ${correctCount} correct out of ${cards.length} words.`,
 			});
-			router.push('/');
+
+			// Redirect back to the appropriate page
+			handleRedirect();
 		}
 	};
 
@@ -275,7 +292,7 @@ export default function QuizPage() {
 							<AlertDialogFooter>
 								<AlertDialogCancel>Continue Quiz</AlertDialogCancel>
 								<AlertDialogAction
-									onClick={() => router.push('/')}
+									onClick={handleRedirect}
 									className="bg-red-600 hover:bg-red-700 text-white"
 								>
 									Exit Quiz

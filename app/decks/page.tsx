@@ -73,6 +73,7 @@ export default function DecksPage() {
 			description: deckDescription.trim(),
 			cardIds: [],
 			createdAt: new Date().toISOString(),
+			updatedAt: '',
 		};
 
 		const updatedDecks = [...decks, newDeck];
@@ -161,7 +162,7 @@ export default function DecksPage() {
 						</div>
 					)}
 				</div>
-				<Button 
+				<Button
 					className="group-create hover:scale-105 transition-all duration-300 hover:shadow-lg"
 					onClick={handleCreateDeck}
 				>
@@ -191,7 +192,7 @@ export default function DecksPage() {
 				</Card>
 			) : (
 				<div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-					{filteredDecks.map((deck, index) => {
+					{filteredDecks.map((deck) => {
 						const stats = getDeckStats(deck);
 						const sessionCards = getSessionCardsForDeck(deck);
 						const completionRate =
@@ -201,34 +202,29 @@ export default function DecksPage() {
 						return (
 							<Card
 								key={deck.id}
-								className="flex flex-col group-deck hover:shadow-xl transition-all duration-300 hover:scale-[1.02] border-2 hover:border-primary/20"
-								style={{ animationDelay: `${index * 100}ms` }}
+								className="flex flex-col hover:shadow-lg transition-all duration-200 border"
 							>
 								<CardHeader className="pb-4">
 									<div className="flex items-start justify-between">
 										<div className="flex-1">
-											<CardTitle className="line-clamp-1 group-deck-hover:text-primary transition-colors duration-300">
+											<CardTitle className="line-clamp-1">
 												{deck.name}
 											</CardTitle>
-											<CardDescription className="mt-1 line-clamp-2 group-deck-hover:text-foreground/80 transition-colors duration-300">
+											<CardDescription className="mt-1 line-clamp-2">
 												{deck.description}
 											</CardDescription>
 										</div>
-										<div className="flex gap-1 opacity-0 group-deck-hover:opacity-100 transition-opacity duration-300">
-											<Button
-												variant="ghost"
-												size="icon"
-												className="h-8 w-8 group-edit hover:bg-blue-50 hover:text-blue-600 transition-all duration-300 hover:scale-110"
-											>
-												<Edit className="h-4 w-4 group-edit-hover:rotate-12 transition-transform duration-300" />
+										<div className="flex gap-1 opacity-0 hover:opacity-100 transition-opacity duration-200">
+											<Button variant="ghost" size="icon" className="h-8 w-8">
+												<Edit className="h-4 w-4" />
 											</Button>
 											<Button
 												variant="ghost"
 												size="icon"
-												className="h-8 w-8 text-destructive hover:text-destructive group-delete hover:bg-red-50 transition-all duration-300 hover:scale-110"
+												className="h-8 w-8 text-destructive hover:text-destructive"
 												onClick={() => handleDeleteDeck(deck.id)}
 											>
-												<Trash2 className="h-4 w-4 group-delete-hover:rotate-12 transition-transform duration-300" />
+												<Trash2 className="h-4 w-4" />
 											</Button>
 										</div>
 									</div>
@@ -236,34 +232,32 @@ export default function DecksPage() {
 								<CardContent className="flex-1">
 									<div className="space-y-4">
 										{/* Progress Bar */}
-										<div className="space-y-3 p-4 rounded-lg bg-gradient-to-r from-slate-50 to-slate-100/50 group-deck-hover:from-slate-100 group-deck-hover:to-slate-200/50 transition-all duration-300 border border-slate-200/50 group-deck-hover:border-slate-300/50">
+										<div className="space-y-3 p-4 rounded-lg bg-muted/50 border">
 											<div className="flex items-center justify-between">
 												<div className="flex items-center gap-2">
-													<div className="w-2 h-2 bg-primary rounded-full animate-pulse" />
-													<span className="text-sm font-semibold text-slate-700 group-deck-hover:text-slate-800 transition-colors duration-300">
+													<div className="w-2 h-2 bg-primary rounded-full" />
+													<span className="text-sm font-semibold text-foreground">
 														Learning Progress
 													</span>
 												</div>
 												<div className="flex items-center gap-2">
-													<span className="text-lg font-black text-primary group-deck-hover:text-primary/90 transition-colors duration-300">
+													<span className="text-lg font-black text-primary">
 														{completionRate}%
 													</span>
 													{completionRate === 100 && (
 														<div className="w-4 h-4 bg-green-500 rounded-full flex items-center justify-center">
-															<div className="w-2 h-2 bg-white rounded-full animate-pulse" />
+															<div className="w-2 h-2 bg-white rounded-full" />
 														</div>
 													)}
 												</div>
 											</div>
-											<div className="w-full bg-slate-200 rounded-full h-3 group-deck-hover:bg-slate-300 transition-colors duration-300 overflow-hidden">
+											<div className="w-full bg-muted rounded-full h-3 overflow-hidden">
 												<div
-													className="bg-gradient-to-r from-primary via-primary/90 to-primary/80 h-3 rounded-full transition-all duration-700 ease-out group-deck-hover:shadow-lg relative"
+													className="bg-primary h-3 rounded-full transition-all duration-500"
 													style={{ width: `${completionRate}%` }}
-												>
-													<div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent animate-pulse" />
-												</div>
+												/>
 											</div>
-											<div className="flex items-center justify-between text-xs text-slate-600 group-deck-hover:text-slate-700 transition-colors duration-300">
+											<div className="flex items-center justify-between text-xs text-muted-foreground">
 												<span>Started</span>
 												<span className="font-medium">
 													{stats.mastered} of {stats.total} mastered
@@ -275,34 +269,31 @@ export default function DecksPage() {
 										{/* Statistics */}
 										<div className="grid grid-cols-3 gap-3">
 											{/* Total Words */}
-											<div className="relative text-center p-4 rounded-xl bg-gradient-to-br from-blue-50 to-blue-100/50 group-deck-hover:from-blue-100 group-deck-hover:to-blue-200/50 transition-all duration-300 border border-blue-200/50 group-deck-hover:border-blue-300/50 group-deck-hover:shadow-md">
-												<div className="absolute top-2 right-2 w-2 h-2 bg-blue-500 rounded-full animate-pulse" />
-												<div className="text-2xl font-black text-blue-700 group-deck-hover:text-blue-800 transition-colors duration-300 mb-1">
+											<div className="text-center p-4 rounded-xl bg-muted/30 border">
+												<div className="text-2xl font-black text-foreground mb-1">
 													{stats.total}
 												</div>
-												<div className="text-xs font-semibold text-blue-600 group-deck-hover:text-blue-700 transition-colors duration-300 uppercase tracking-wide">
+												<div className="text-xs font-semibold text-muted-foreground uppercase tracking-wide">
 													Total Words
 												</div>
 											</div>
 
 											{/* Due Words */}
-											<div className="relative text-center p-4 rounded-xl bg-gradient-to-br from-orange-50 to-orange-100/50 group-deck-hover:from-orange-100 group-deck-hover:to-orange-200/50 transition-all duration-300 border border-orange-200/50 group-deck-hover:border-orange-300/50 group-deck-hover:shadow-md">
-												<div className="absolute top-2 right-2 w-2 h-2 bg-orange-500 rounded-full animate-pulse" />
-												<div className="text-2xl font-black text-orange-700 group-deck-hover:text-orange-800 transition-colors duration-300 mb-1">
+											<div className="text-center p-4 rounded-xl bg-muted/30 border">
+												<div className="text-2xl font-black text-foreground mb-1">
 													{stats.due}
 												</div>
-												<div className="text-xs font-semibold text-orange-600 group-deck-hover:text-orange-700 transition-colors duration-300 uppercase tracking-wide">
+												<div className="text-xs font-semibold text-muted-foreground uppercase tracking-wide">
 													Due Today
 												</div>
 											</div>
 
 											{/* Mastered Words */}
-											<div className="relative text-center p-4 rounded-xl bg-gradient-to-br from-green-50 to-green-100/50 group-deck-hover:from-green-100 group-deck-hover:to-green-200/50 transition-all duration-300 border border-green-200/50 group-deck-hover:border-green-300/50 group-deck-hover:shadow-md">
-												<div className="absolute top-2 right-2 w-2 h-2 bg-green-500 rounded-full animate-pulse" />
-												<div className="text-2xl font-black text-green-700 group-deck-hover:text-green-800 transition-colors duration-300 mb-1">
+											<div className="text-center p-4 rounded-xl bg-muted/30 border">
+												<div className="text-2xl font-black text-foreground mb-1">
 													{stats.mastered}
 												</div>
-												<div className="text-xs font-semibold text-green-600 group-deck-hover:text-green-700 transition-colors duration-300 uppercase tracking-wide">
+												<div className="text-xs font-semibold text-muted-foreground uppercase tracking-wide">
 													Mastered
 												</div>
 											</div>
@@ -311,22 +302,19 @@ export default function DecksPage() {
 
 									<div className="mt-6 flex gap-2">
 										<Link href={`/decks/${deck.id}`} className="flex-1">
-											<Button
-												className="w-full group-browse hover:scale-105 transition-all duration-300 hover:shadow-md"
-												size="sm"
-											>
-												<BookOpen className="mr-2 h-4 w-4 group-browse-hover:scale-110 transition-transform duration-300" />
+											<Button className="w-full" size="sm">
+												<BookOpen className="mr-2 h-4 w-4" />
 												Browse
 											</Button>
 										</Link>
-										<Link href="/quiz" className="flex-1">
+										<Link href="/quiz?returnTo=decks" className="flex-1">
 											<Button
 												variant="outline"
-												className="w-full group-quiz hover:scale-105 transition-all duration-300 hover:shadow-md disabled:opacity-50"
+												className="w-full disabled:opacity-50"
 												size="sm"
 												disabled={sessionCards.length === 0}
 											>
-												<Play className="mr-2 h-4 w-4 group-quiz-hover:scale-110 transition-transform duration-300" />
+												<Play className="mr-2 h-4 w-4" />
 												Study
 												{sessionCards.length > 0 && (
 													<span className="ml-1 px-1.5 py-0.5 bg-primary/20 rounded-full text-xs font-bold">

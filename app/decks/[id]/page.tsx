@@ -107,8 +107,8 @@ export default function DeckDetailPage() {
 			return;
 		}
 
-		// Navigate to quiz page
-		router.push('/quiz');
+		// Navigate to quiz page with deck ID as return parameter
+		router.push(`/quiz?returnTo=deck&deckId=${deck?.id}`);
 	};
 
 	const handleEditDeck = () => {
