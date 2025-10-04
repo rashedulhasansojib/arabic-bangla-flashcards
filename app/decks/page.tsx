@@ -37,10 +37,44 @@ export default function DecksPage() {
 		const dueCards = getDueCards(deckCards);
 		const masteredCards = deckCards.filter((card) => card.box === 5);
 
+		// Box distribution for Leitner System
+		const boxDistribution = {
+			new: deckCards.filter((card) => card.box === 1).length,
+			learning: deckCards.filter((card) => card.box === 2).length,
+			familiar: deckCards.filter((card) => card.box === 3).length,
+			known: deckCards.filter((card) => card.box === 4).length,
+			mastered: deckCards.filter((card) => card.box === 5).length,
+		};
+
+		// Calculate next review info
+		const now = new Date();
+		const tomorrow = new Date(now.getTime() + 24 * 60 * 60 * 1000);
+		const nextReviewCards = deckCards.filter((card) => {
+			if (!card.nextReview) return false;
+			const reviewDate = new Date(card.nextReview);
+			return reviewDate <= tomorrow;
+		});
+
+		// Calculate activity streak (simplified - based on last review)
+		const lastReviewDates = deckCards
+			.filter((card) => card.lastReviewed)
+			.map((card) => new Date(card.lastReviewed!))
+			.sort((a, b) => b.getTime() - a.getTime());
+
+		const lastActivity = lastReviewDates.length > 0 ? lastReviewDates[0] : null;
+		const daysSinceActivity = lastActivity
+			? Math.floor(
+					(now.getTime() - lastActivity.getTime()) / (24 * 60 * 60 * 1000)
+			  )
+			: null;
+
 		return {
 			total: deckCards.length,
 			due: dueCards.length,
 			mastered: masteredCards.length,
+			boxDistribution,
+			nextReview: nextReviewCards.length,
+			lastActivity: daysSinceActivity,
 		};
 	};
 
@@ -192,7 +226,7 @@ export default function DecksPage() {
 				</Card>
 			) : (
 				<div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-					{filteredDecks.map((deck) => {
+					{filteredDecks.map((deck, index) => {
 						const stats = getDeckStats(deck);
 						const sessionCards = getSessionCardsForDeck(deck);
 						const completionRate =
@@ -202,7 +236,8 @@ export default function DecksPage() {
 						return (
 							<Card
 								key={deck.id}
-								className="flex flex-col hover:shadow-lg transition-all duration-200 border"
+								className="flex flex-col hover:shadow-lg transition-all duration-300 border group-deck hover:scale-[1.02] hover:border-primary/20"
+								style={{ animationDelay: `${index * 100}ms` }}
 							>
 								<CardHeader className="pb-4">
 									<div className="flex items-start justify-between">
@@ -232,32 +267,34 @@ export default function DecksPage() {
 								<CardContent className="flex-1">
 									<div className="space-y-4">
 										{/* Progress Bar */}
-										<div className="space-y-3 p-4 rounded-lg bg-muted/50 border">
+										<div className="space-y-3 p-4 rounded-lg bg-muted/50 border group-progress hover:bg-muted/70 transition-all duration-300">
 											<div className="flex items-center justify-between">
 												<div className="flex items-center gap-2">
-													<div className="w-2 h-2 bg-primary rounded-full" />
-													<span className="text-sm font-semibold text-foreground">
+													<div className="w-2 h-2 bg-primary rounded-full animate-pulse group-progress-hover:scale-110 transition-transform duration-300" />
+													<span className="text-sm font-semibold text-foreground group-progress-hover:text-primary transition-colors duration-300">
 														Learning Progress
 													</span>
 												</div>
 												<div className="flex items-center gap-2">
-													<span className="text-lg font-black text-primary">
+													<span className="text-lg font-black text-primary group-progress-hover:scale-110 transition-transform duration-300">
 														{completionRate}%
 													</span>
 													{completionRate === 100 && (
-														<div className="w-4 h-4 bg-green-500 rounded-full flex items-center justify-center">
-															<div className="w-2 h-2 bg-white rounded-full" />
+														<div className="w-4 h-4 bg-green-500 rounded-full flex items-center justify-center animate-bounce">
+															<div className="w-2 h-2 bg-white rounded-full animate-pulse" />
 														</div>
 													)}
 												</div>
 											</div>
-											<div className="w-full bg-muted rounded-full h-3 overflow-hidden">
+											<div className="w-full bg-muted rounded-full h-3 overflow-hidden group-progress-hover:bg-muted/80 transition-colors duration-300">
 												<div
-													className="bg-primary h-3 rounded-full transition-all duration-500"
+													className="bg-gradient-to-r from-primary via-primary/90 to-primary/80 h-3 rounded-full transition-all duration-700 ease-out group-progress-hover:shadow-lg relative"
 													style={{ width: `${completionRate}%` }}
-												/>
+												>
+													<div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent animate-pulse" />
+												</div>
 											</div>
-											<div className="flex items-center justify-between text-xs text-muted-foreground">
+											<div className="flex items-center justify-between text-xs text-muted-foreground group-progress-hover:text-foreground/80 transition-colors duration-300">
 												<span>Started</span>
 												<span className="font-medium">
 													{stats.mastered} of {stats.total} mastered
@@ -266,35 +303,96 @@ export default function DecksPage() {
 											</div>
 										</div>
 
-										{/* Statistics */}
-										<div className="grid grid-cols-3 gap-3">
-											{/* Total Words */}
-											<div className="text-center p-4 rounded-xl bg-muted/30 border">
-												<div className="text-2xl font-black text-foreground mb-1">
-													{stats.total}
+										{/* Leitner Box Distribution */}
+										<div className="space-y-3 group-boxes">
+											<div className="flex items-center justify-between">
+												<h4 className="text-sm font-semibold text-foreground group-boxes-hover:text-primary transition-colors duration-300">
+													Learning Journey
+												</h4>
+												<span className="text-xs text-muted-foreground group-boxes-hover:text-foreground/80 transition-colors duration-300">
+													Leitner Box System
+												</span>
+											</div>
+											<div className="grid grid-cols-5 gap-2">
+												{/* Box 1 - New */}
+												<div className="text-center p-2 rounded-lg bg-blue-50 dark:bg-blue-950/30 border border-blue-200 dark:border-blue-800 group-box hover:scale-105 hover:shadow-md transition-all duration-300 hover:bg-blue-100 dark:hover:bg-blue-950/50">
+													<div className="text-lg font-bold text-blue-700 dark:text-blue-300 group-box-hover:scale-110 transition-transform duration-300">
+														{stats.boxDistribution.new}
+													</div>
+													<div className="text-xs text-blue-600 dark:text-blue-400 font-medium group-box-hover:text-blue-800 dark:group-box-hover:text-blue-200 transition-colors duration-300">
+														New
+													</div>
 												</div>
-												<div className="text-xs font-semibold text-muted-foreground uppercase tracking-wide">
-													Total Words
+
+												{/* Box 2 - Learning */}
+												<div className="text-center p-2 rounded-lg bg-yellow-50 dark:bg-yellow-950/30 border border-yellow-200 dark:border-yellow-800 group-box hover:scale-105 hover:shadow-md transition-all duration-300 hover:bg-yellow-100 dark:hover:bg-yellow-950/50">
+													<div className="text-lg font-bold text-yellow-700 dark:text-yellow-300 group-box-hover:scale-110 transition-transform duration-300">
+														{stats.boxDistribution.learning}
+													</div>
+													<div className="text-xs text-yellow-600 dark:text-yellow-400 font-medium group-box-hover:text-yellow-800 dark:group-box-hover:text-yellow-200 transition-colors duration-300">
+														Learning
+													</div>
+												</div>
+
+												{/* Box 3 - Familiar */}
+												<div className="text-center p-2 rounded-lg bg-orange-50 dark:bg-orange-950/30 border border-orange-200 dark:border-orange-800 group-box hover:scale-105 hover:shadow-md transition-all duration-300 hover:bg-orange-100 dark:hover:bg-orange-950/50">
+													<div className="text-lg font-bold text-orange-700 dark:text-orange-300 group-box-hover:scale-110 transition-transform duration-300">
+														{stats.boxDistribution.familiar}
+													</div>
+													<div className="text-xs text-orange-600 dark:text-orange-400 font-medium group-box-hover:text-orange-800 dark:group-box-hover:text-orange-200 transition-colors duration-300">
+														Familiar
+													</div>
+												</div>
+
+												{/* Box 4 - Known */}
+												<div className="text-center p-2 rounded-lg bg-green-50 dark:bg-green-950/30 border border-green-200 dark:border-green-800 group-box hover:scale-105 hover:shadow-md transition-all duration-300 hover:bg-green-100 dark:hover:bg-green-950/50">
+													<div className="text-lg font-bold text-green-700 dark:text-green-300 group-box-hover:scale-110 transition-transform duration-300">
+														{stats.boxDistribution.known}
+													</div>
+													<div className="text-xs text-green-600 dark:text-green-400 font-medium group-box-hover:text-green-800 dark:group-box-hover:text-green-200 transition-colors duration-300">
+														Known
+													</div>
+												</div>
+
+												{/* Box 5 - Mastered */}
+												<div className="text-center p-2 rounded-lg bg-emerald-50 dark:bg-emerald-950/30 border border-emerald-200 dark:border-emerald-800 group-box hover:scale-105 hover:shadow-md transition-all duration-300 hover:bg-emerald-100 dark:hover:bg-emerald-950/50">
+													<div className="text-lg font-bold text-emerald-700 dark:text-emerald-300 group-box-hover:scale-110 transition-transform duration-300">
+														{stats.boxDistribution.mastered}
+													</div>
+													<div className="text-xs text-emerald-600 dark:text-emerald-400 font-medium group-box-hover:text-emerald-800 dark:group-box-hover:text-emerald-200 transition-colors duration-300">
+														Mastered
+													</div>
+												</div>
+											</div>
+										</div>
+
+										{/* Review Status & Activity */}
+										<div className="grid grid-cols-2 gap-3">
+											{/* Next Review */}
+											<div className="text-center p-3 rounded-lg bg-muted/30 border group-review hover:scale-105 hover:shadow-md transition-all duration-300 hover:bg-muted/50">
+												<div className="text-xl font-bold text-foreground mb-1 group-review-hover:scale-110 transition-transform duration-300">
+													{stats.nextReview}
+												</div>
+												<div className="text-xs font-semibold text-muted-foreground group-review-hover:text-foreground/80 transition-colors duration-300">
+													{stats.nextReview === 0
+														? 'All Caught Up!'
+														: 'Due Tomorrow'}
 												</div>
 											</div>
 
-											{/* Due Words */}
-											<div className="text-center p-4 rounded-xl bg-muted/30 border">
-												<div className="text-2xl font-black text-foreground mb-1">
-													{stats.due}
+											{/* Activity Status */}
+											<div className="text-center p-3 rounded-lg bg-muted/30 border group-activity hover:scale-105 hover:shadow-md transition-all duration-300 hover:bg-muted/50">
+												<div className="text-xl font-bold text-foreground mb-1 group-activity-hover:scale-110 transition-transform duration-300">
+													{stats.lastActivity === null
+														? '—'
+														: stats.lastActivity === 0
+														? 'Today'
+														: `${stats.lastActivity}d`}
 												</div>
-												<div className="text-xs font-semibold text-muted-foreground uppercase tracking-wide">
-													Due Today
-												</div>
-											</div>
-
-											{/* Mastered Words */}
-											<div className="text-center p-4 rounded-xl bg-muted/30 border">
-												<div className="text-2xl font-black text-foreground mb-1">
-													{stats.mastered}
-												</div>
-												<div className="text-xs font-semibold text-muted-foreground uppercase tracking-wide">
-													Mastered
+												<div className="text-xs font-semibold text-muted-foreground group-activity-hover:text-foreground/80 transition-colors duration-300">
+													{stats.lastActivity === null
+														? 'Never Studied'
+														: 'Last Activity'}
 												</div>
 											</div>
 										</div>
@@ -302,22 +400,25 @@ export default function DecksPage() {
 
 									<div className="mt-6 flex gap-2">
 										<Link href={`/decks/${deck.id}`} className="flex-1">
-											<Button className="w-full" size="sm">
-												<BookOpen className="mr-2 h-4 w-4" />
+											<Button
+												className="w-full group-browse hover:scale-105 transition-all duration-300 hover:shadow-md"
+												size="sm"
+											>
+												<BookOpen className="mr-2 h-4 w-4 group-browse-hover:scale-110 transition-transform duration-300" />
 												Browse
 											</Button>
 										</Link>
 										<Link href="/quiz?returnTo=decks" className="flex-1">
 											<Button
 												variant="outline"
-												className="w-full disabled:opacity-50"
+												className="w-full group-quiz hover:scale-105 transition-all duration-300 hover:shadow-md disabled:opacity-50"
 												size="sm"
 												disabled={sessionCards.length === 0}
 											>
-												<Play className="mr-2 h-4 w-4" />
+												<Play className="mr-2 h-4 w-4 group-quiz-hover:scale-110 transition-transform duration-300" />
 												Study
 												{sessionCards.length > 0 && (
-													<span className="ml-1 px-1.5 py-0.5 bg-primary/20 rounded-full text-xs font-bold">
+													<span className="ml-1 px-1.5 py-0.5 bg-primary/20 rounded-full text-xs font-bold animate-pulse">
 														{sessionCards.length}
 													</span>
 												)}

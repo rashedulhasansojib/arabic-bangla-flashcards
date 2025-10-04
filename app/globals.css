@@ -313,3 +313,134 @@
 		}
 	}
 }
+
+/* Deck Card Animations */
+.group-deck {
+	animation: slideInUp 0.6s ease-out;
+}
+
+.group-progress {
+	transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.group-boxes {
+	transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.group-box {
+	transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+	animation: fadeInScale 0.4s ease-out;
+}
+
+.group-review,
+.group-activity {
+	transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.group-browse,
+.group-quiz {
+	transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Home Page Animations */
+.group-progress {
+	animation: slideInUp 0.6s ease-out;
+	opacity: 0;
+	animation-fill-mode: forwards;
+}
+
+.group-activity {
+	animation: slideInUp 0.6s ease-out 0.2s both;
+	opacity: 0;
+	animation-fill-mode: forwards;
+}
+
+.group-boxes {
+	animation: slideInUp 0.6s ease-out 0.1s both;
+	opacity: 0;
+	animation-fill-mode: forwards;
+}
+
+.group-box {
+	animation: fadeInScale 0.4s ease-out;
+	opacity: 0;
+	animation-fill-mode: forwards;
+}
+
+.group-new,
+.group-learning,
+.group-mastered {
+	transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.group-review-item,
+.group-streak-item,
+.group-accuracy-item {
+	transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+	animation: fadeInScale 0.4s ease-out;
+	opacity: 0;
+	animation-fill-mode: forwards;
+}
+
+/* Staggered animations for home page elements */
+.group-review-item:nth-child(1) { animation-delay: 0.1s; }
+.group-review-item:nth-child(2) { animation-delay: 0.2s; }
+.group-review-item:nth-child(3) { animation-delay: 0.3s; }
+
+.group-box:nth-child(1) { animation-delay: 0.1s; }
+.group-box:nth-child(2) { animation-delay: 0.15s; }
+.group-box:nth-child(3) { animation-delay: 0.2s; }
+.group-box:nth-child(4) { animation-delay: 0.25s; }
+.group-box:nth-child(5) { animation-delay: 0.3s; }
+
+/* Custom Keyframes */
+@keyframes slideInUp {
+	from {
+		opacity: 0;
+		transform: translateY(20px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@keyframes fadeInScale {
+	from {
+		opacity: 0;
+		transform: scale(0.9);
+	}
+	to {
+		opacity: 1;
+		transform: scale(1);
+	}
+}
+
+@keyframes progressFill {
+	from {
+		width: 0%;
+	}
+	to {
+		width: var(--progress-width);
+	}
+}
+
+/* Staggered animations for deck cards */
+.deck-card:nth-child(1) {
+	animation-delay: 0ms;
+}
+.deck-card:nth-child(2) {
+	animation-delay: 100ms;
+}
+.deck-card:nth-child(3) {
+	animation-delay: 200ms;
+}
+.deck-card:nth-child(4) {
+	animation-delay: 300ms;
+}
+.deck-card:nth-child(5) {
+	animation-delay: 400ms;
+}
+.deck-card:nth-child(6) {
+	animation-delay: 500ms;
+}
