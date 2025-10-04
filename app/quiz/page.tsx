@@ -24,6 +24,7 @@ import { getSessionCards, gradeCard } from '@/lib/spaced-repetition';
 import {
 	addSession,
 	getCards,
+	getDeck,
 	getProgress,
 	getSettings,
 	setProgress,
@@ -83,9 +84,29 @@ export default function QuizPage() {
 	useEffect(() => {
 		const settings = getSettings();
 		const allCards = getCards();
+		const deckId = searchParams.get('deckId');
 
-		// Use the new session composition logic that follows PRD priority order
-		const sessionCards = getSessionCards(allCards, settings.cardsPerSession);
+		let sessionCards;
+
+		if (deckId) {
+			// Study specific deck - get deck and filter cards
+			const deck = getDeck(deckId);
+			if (!deck) {
+				toast({
+					title: 'Deck not found',
+					description: 'The requested deck could not be found.',
+				});
+				handleRedirect();
+				return;
+			}
+
+			// Filter cards to only include those in this deck
+			const deckCards = allCards.filter(card => deck.cardIds.includes(card.id));
+			sessionCards = getSessionCards(deckCards, settings.cardsPerSession);
+		} else {
+			// Study all cards - use the new session composition logic that follows PRD priority order
+			sessionCards = getSessionCards(allCards, settings.cardsPerSession);
+		}
 
 		if (sessionCards.length === 0) {
 			toast({
@@ -101,7 +122,7 @@ export default function QuizPage() {
 		setShowTransliteration(settings.showTransliteration);
 		setSessionStartTime(new Date());
 		setIsLoading(false);
-	}, [router, toast]);
+	}, [router, toast, searchParams]);
 
 	const currentCard = cards[currentIndex];
 	const progressPercent =
