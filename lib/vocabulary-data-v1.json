@@ -1,0 +1,3262 @@
+{
+	"Module 1": [
+		{
+			"Bengali_Meaning": "একটি কলম",
+			"Arabic_Term": "قَلَمٌ"
+		},
+		{
+			"Bengali_Meaning": "একটি কিতাব",
+			"Arabic_Term": "كِتَابٌ"
+		},
+		{
+			"Bengali_Meaning": "একটি ঘর",
+			"Arabic_Term": "بَيْتٌ"
+		},
+		{
+			"Bengali_Meaning": "একটি চেয়ার",
+			"Arabic_Term": "كُرْسِيٌّ"
+		},
+		{
+			"Bengali_Meaning": "একটি বাতি",
+			"Arabic_Term": "مِصْبَاحٌ"
+		},
+		{
+			"Bengali_Meaning": "একটি দরজা",
+			"Arabic_Term": "بَابٌ"
+		},
+		{
+			"Bengali_Meaning": "একটি খাট",
+			"Arabic_Term": "سَرِيرٌ"
+		},
+		{
+			"Bengali_Meaning": "একটি দেওয়াল",
+			"Arabic_Term": "جِدَارٌ"
+		},
+		{
+			"Bengali_Meaning": "একটি চাবি",
+			"Arabic_Term": "مِفْتَاحٌ"
+		},
+		{
+			"Bengali_Meaning": "একটি তালা",
+			"Arabic_Term": "قُفْلٌ"
+		},
+		{
+			"Bengali_Meaning": "একটি পতাকা",
+			"Arabic_Term": "عَلَمٌ"
+		},
+		{
+			"Bengali_Meaning": "একটি বাক্স",
+			"Arabic_Term": "صُنْدُوقٌ"
+		},
+		{
+			"Bengali_Meaning": "একটি ব্ল্যাকবোর্ড",
+			"Arabic_Term": "سَبُّورَةٌ"
+		},
+		{
+			"Bengali_Meaning": "একটি মাদরাসা",
+			"Arabic_Term": "مَدْرَسَةٌ"
+		},
+		{
+			"Bengali_Meaning": "একটি ব্যাগ",
+			"Arabic_Term": "حَقِيبَةٌ"
+		},
+		{
+			"Bengali_Meaning": "একটি রুলার",
+			"Arabic_Term": "مِسْطَرَةٌ"
+		},
+		{
+			"Bengali_Meaning": "একটি টেবিল",
+			"Arabic_Term": "طَاوِلَةٌ"
+		},
+		{
+			"Bengali_Meaning": "একটি খাতা",
+			"Arabic_Term": "كُرَّاسَةٌ"
+		},
+		{
+			"Bengali_Meaning": "একটি জানালা",
+			"Arabic_Term": "نَافِذَةٌ"
+		},
+		{
+			"Bengali_Meaning": "একটি কামরা",
+			"Arabic_Term": "حُجْرَةٌ-غُرْفَةٌ"
+		},
+		{
+			"Bengali_Meaning": "একটি ঘড়ি",
+			"Arabic_Term": "سَاعَةٌ"
+		},
+		{
+			"Bengali_Meaning": "একটি হাত",
+			"Arabic_Term": "مِظَلَّةٌ"
+		},
+		{
+			"Bengali_Meaning": "একটি চশমা",
+			"Arabic_Term": "نَظَّارَةٌ"
+		},
+		{
+			"Bengali_Meaning": "একটি কার",
+			"Arabic_Term": "سَيَّارَةٌ"
+		}
+	],
+	"Module 2": [
+		{
+			"Bengali_Meaning": "একটি পাখা",
+			"Arabic_Term": "مِرْوَحَةٌ"
+		},
+		{
+			"Bengali_Meaning": "একটি বাগান",
+			"Arabic_Term": "حَدِيقَةٌ"
+		},
+		{
+			"Bengali_Meaning": "নতুন",
+			"Arabic_Term": "جَدِيدٌ - جَدِيدَةٌ"
+		},
+		{
+			"Bengali_Meaning": "পুরাতন",
+			"Arabic_Term": "قَدِيمٌ - قَدِيمَةٌ"
+		},
+		{
+			"Bengali_Meaning": "বড়",
+			"Arabic_Term": "كَبِيرٌ - كَبِيرَةٌ"
+		},
+		{
+			"Bengali_Meaning": "ছোট",
+			"Arabic_Term": "صَغِيرٌ - صَغِيرَةٌ"
+		},
+		{
+			"Bengali_Meaning": "ভালো",
+			"Arabic_Term": "جَيِّدٌ - جَيِّدَةٌ"
+		},
+		{
+			"Bengali_Meaning": "সুন্দর",
+			"Arabic_Term": "جَمِيلٌ - جَمِيلَةٌ"
+		},
+		{
+			"Bengali_Meaning": "নোংরা",
+			"Arabic_Term": "وَسِخٌ - وَسِخَةٌ"
+		},
+		{
+			"Bengali_Meaning": "পরিষ্কার",
+			"Arabic_Term": "نَظِيفٌ - نَظِيفَةٌ"
+		},
+		{
+			"Bengali_Meaning": "একটি বালিশ",
+			"Arabic_Term": "وِسَادَةٌ"
+		},
+		{
+			"Bengali_Meaning": "একটি বিছানা",
+			"Arabic_Term": "فِرَاشٌ"
+		},
+		{
+			"Bengali_Meaning": "একটি টুপি",
+			"Arabic_Term": "قَلَنْسُوَةٌ"
+		},
+		{
+			"Bengali_Meaning": "একটি জামা",
+			"Arabic_Term": "قَمِيصٌ"
+		},
+		{
+			"Bengali_Meaning": "একটি পাগড়ি",
+			"Arabic_Term": "عِمَامَةٌ"
+		},
+		{
+			"Bengali_Meaning": "একটি পোশাক",
+			"Arabic_Term": "لِبَاسٌ"
+		},
+		{
+			"Bengali_Meaning": "একটি জুতা",
+			"Arabic_Term": "حِذَاءٌ"
+		},
+		{
+			"Bengali_Meaning": "একটি রুমাল",
+			"Arabic_Term": "مِنْدِيلٌ"
+		},
+		{
+			"Bengali_Meaning": "একজন ছাত্রী",
+			"Arabic_Term": "تِلْمِيذَةٌ"
+		},
+		{
+			"Bengali_Meaning": "একজন ছাত্র",
+			"Arabic_Term": "تِلْمِيذٌ"
+		},
+		{
+			"Bengali_Meaning": "একজন শিক্ষিকা",
+			"Arabic_Term": "مُعَلِّمَةٌ"
+		},
+		{
+			"Bengali_Meaning": "একজন শিক্ষক",
+			"Arabic_Term": "مُعَلِّمٌ"
+		},
+		{
+			"Bengali_Meaning": "একটি মেয়ে শিশু",
+			"Arabic_Term": "طِفْلَةٌ"
+		},
+		{
+			"Bengali_Meaning": "একটি ছেলে শিশু",
+			"Arabic_Term": "طِفْلٌ"
+		},
+		{
+			"Bengali_Meaning": "একটি মেয়ে",
+			"Arabic_Term": "بِنْتٌ"
+		},
+		{
+			"Bengali_Meaning": "একটি ছেলে",
+			"Arabic_Term": "وَلَدٌ"
+		},
+		{
+			"Bengali_Meaning": "আলস",
+			"Arabic_Term": "كَسْلَانُ - كَسْلَانَةٌ"
+		},
+		{
+			"Bengali_Meaning": "ভদ্র",
+			"Arabic_Term": "مُؤَدَّبٌ - مُؤَدَّبَةٌ"
+		}
+	],
+	"Module 3": [
+		{
+			"Bengali_Meaning": "সে",
+			"Arabic_Term": "هُوَ"
+		},
+		{
+			"Bengali_Meaning": "সে",
+			"Arabic_Term": "هِيَ"
+		},
+		{
+			"Bengali_Meaning": "তুমি",
+			"Arabic_Term": "أَنْتَ"
+		},
+		{
+			"Bengali_Meaning": "তুমি",
+			"Arabic_Term": "أَنْتِ"
+		},
+		{
+			"Bengali_Meaning": "আমি",
+			"Arabic_Term": "أَنَا"
+		},
+		{
+			"Bengali_Meaning": "একজন কৃষক",
+			"Arabic_Term": "فَلَّاحٌ"
+		},
+		{
+			"Bengali_Meaning": "একজন ব্যবসায়ী",
+			"Arabic_Term": "تَاجِرٌ"
+		},
+		{
+			"Bengali_Meaning": "গরীব, দরিদ্র",
+			"Arabic_Term": "فَقِيرٌ"
+		},
+		{
+			"Bengali_Meaning": "একজন ধনী",
+			"Arabic_Term": "غَنِيٌّ"
+		},
+		{
+			"Bengali_Meaning": "নির্বোধ, মেধাহীন",
+			"Arabic_Term": "غَبِيٌّ"
+		},
+		{
+			"Bengali_Meaning": "একজন মেধাবী",
+			"Arabic_Term": "ذَكِيٌّ"
+		},
+		{
+			"Bengali_Meaning": "একজন স্ত্রীলোক, মহিলা",
+			"Arabic_Term": "إِمْرَأَةٌ"
+		},
+		{
+			"Bengali_Meaning": "একজন পুরুষ",
+			"Arabic_Term": "رَجُلٌ"
+		}
+	],
+	"Module 4": [
+		{
+			"Bengali_Meaning": "পরিশ্রমী",
+			"Arabic_Term": "مُجْتَهِدٌ"
+		},
+		{
+			"Bengali_Meaning": "ভদ্র",
+			"Arabic_Term": "شَرِيفٌ"
+		},
+		{
+			"Bengali_Meaning": "প্রসিদ্ধ",
+			"Arabic_Term": "مَشْهُورٌ"
+		},
+		{
+			"Bengali_Meaning": "দক্ষ",
+			"Arabic_Term": "مَاهِرٌ"
+		},
+		{
+			"Bengali_Meaning": "বন্ধ",
+			"Arabic_Term": "مُغْلَقٌ"
+		},
+		{
+			"Bengali_Meaning": "খোলা",
+			"Arabic_Term": "مَفْتُوحٌ"
+		},
+		{
+			"Bengali_Meaning": "অপ্রশস্ত, সংকীর্ণ",
+			"Arabic_Term": "ضَيِّقٌ"
+		},
+		{
+			"Bengali_Meaning": "প্রশস্ত",
+			"Arabic_Term": "وَاسِعٌ"
+		},
+		{
+			"Bengali_Meaning": "দুর্বল",
+			"Arabic_Term": "ضَعِيفٌ"
+		},
+		{
+			"Bengali_Meaning": "শক্তিশালী",
+			"Arabic_Term": "قَوِيٌّ"
+		},
+		{
+			"Bengali_Meaning": "আলেম",
+			"Arabic_Term": "عَالِمٌ"
+		},
+		{
+			"Bengali_Meaning": "বিষয়, ব্যাপার",
+			"Arabic_Term": "أَمْرٌ"
+		}
+	],
+	"Module 5": [
+		{
+			"Bengali_Meaning": "কাফের",
+			"Arabic_Term": "كَافِرٌ"
+		},
+		{
+			"Bengali_Meaning": "নূসখা, কুরআন",
+			"Arabic_Term": "مُصْحَفٌ"
+		},
+		{
+			"Bengali_Meaning": "মুসাফির",
+			"Arabic_Term": "مُسَافِرٌ"
+		},
+		{
+			"Bengali_Meaning": "মুজাহিদ",
+			"Arabic_Term": "مُجَاهِدٌ"
+		},
+		{
+			"Bengali_Meaning": "বরকতময়",
+			"Arabic_Term": "مُبَارَكٌ"
+		},
+		{
+			"Bengali_Meaning": "খোলা",
+			"Arabic_Term": "مَنْشُورٌ"
+		},
+		{
+			"Bengali_Meaning": "চিনি",
+			"Arabic_Term": "سُكَّرٌ"
+		},
+		{
+			"Bengali_Meaning": "লবণ",
+			"Arabic_Term": "مِلْحٌ"
+		},
+		{
+			"Bengali_Meaning": "খবর",
+			"Arabic_Term": "خَبَرٌ"
+		},
+		{
+			"Bengali_Meaning": "পাত্র",
+			"Arabic_Term": "إِنَاءٌ"
+		},
+		{
+			"Bengali_Meaning": "দেশ",
+			"Arabic_Term": "بَلَدٌ"
+		},
+		{
+			"Bengali_Meaning": "শব্দ",
+			"Arabic_Term": "كَلِمَةٌ"
+		},
+		{
+			"Bengali_Meaning": "জেলখানা",
+			"Arabic_Term": "سِجْنٌ"
+		},
+		{
+			"Bengali_Meaning": "নাতি",
+			"Arabic_Term": "حَفِيدٌ"
+		},
+		{
+			"Bengali_Meaning": "প্রাণ, আত্মা",
+			"Arabic_Term": "رُوحٌ"
+		},
+		{
+			"Bengali_Meaning": "ছাত্র",
+			"Arabic_Term": "طَالِبٌ"
+		}
+	],
+	"Module 6": [
+		{
+			"Bengali_Meaning": "উটনী",
+			"Arabic_Term": "نَاقَةٌ"
+		},
+		{
+			"Bengali_Meaning": "উট",
+			"Arabic_Term": "جَمَلٌ"
+		},
+		{
+			"Bengali_Meaning": "কুফর, কুফুরী",
+			"Arabic_Term": "كُفْرٌ"
+		},
+		{
+			"Bengali_Meaning": "ঈমান",
+			"Arabic_Term": "إِيمَانٌ"
+		},
+		{
+			"Bengali_Meaning": "উম্মাত",
+			"Arabic_Term": "أُمَّةٌ"
+		},
+		{
+			"Bengali_Meaning": "জীবন",
+			"Arabic_Term": "حَيَاةٌ"
+		},
+		{
+			"Bengali_Meaning": "বাক্য",
+			"Arabic_Term": "جُمْلَةٌ"
+		},
+		{
+			"Bengali_Meaning": "পাতা, কাগজ",
+			"Arabic_Term": "وَرَقَةٌ"
+		},
+		{
+			"Bengali_Meaning": "আয়না",
+			"Arabic_Term": "مِرْأَةٌ"
+		},
+		{
+			"Bengali_Meaning": "চিরুনী",
+			"Arabic_Term": "مِشْطٌ"
+		},
+		{
+			"Bengali_Meaning": "মৃত",
+			"Arabic_Term": "مَيِّتٌ"
+		},
+		{
+			"Bengali_Meaning": "জীবিত",
+			"Arabic_Term": "حَيٌّ"
+		},
+		{
+			"Bengali_Meaning": "ক্ষতিকর",
+			"Arabic_Term": "ضَارٌّ"
+		},
+		{
+			"Bengali_Meaning": "উপকারী",
+			"Arabic_Term": "مُفِيدٌ"
+		},
+		{
+			"Bengali_Meaning": "মা",
+			"Arabic_Term": "أُمٌّ"
+		},
+		{
+			"Bengali_Meaning": "বাবা",
+			"Arabic_Term": "أَبٌ"
+		},
+		{
+			"Bengali_Meaning": "বোন",
+			"Arabic_Term": "أُخْتٌ"
+		},
+		{
+			"Bengali_Meaning": "ভাই",
+			"Arabic_Term": "أَخٌ"
+		},
+		{
+			"Bengali_Meaning": "ফুফু",
+			"Arabic_Term": "عَمَّةٌ"
+		},
+		{
+			"Bengali_Meaning": "চাচা",
+			"Arabic_Term": "عَمٌّ"
+		},
+		{
+			"Bengali_Meaning": "খালা",
+			"Arabic_Term": "خَالَةٌ"
+		},
+		{
+			"Bengali_Meaning": "মামা",
+			"Arabic_Term": "خَالٌ"
+		},
+		{
+			"Bengali_Meaning": "দাদি, নানি",
+			"Arabic_Term": "جَدَّةٌ"
+		},
+		{
+			"Bengali_Meaning": "দাদা, নানা",
+			"Arabic_Term": "جَدٌّ"
+		},
+		{
+			"Bengali_Meaning": "উপকারী",
+			"Arabic_Term": "مُفِيدٌ"
+		},
+		{
+			"Bengali_Meaning": "নাম",
+			"Arabic_Term": "إِسْمٌ"
+		},
+		{
+			"Bengali_Meaning": "শুক্র",
+			"Arabic_Term": "عُذْرٌ"
+		},
+		{
+			"Bengali_Meaning": "বন্ধু",
+			"Arabic_Term": "صَدِيقٌ"
+		},
+		{
+			"Bengali_Meaning": "ধর্ম",
+			"Arabic_Term": "دِينٌ"
+		},
+		{
+			"Bengali_Meaning": "প্রভু",
+			"Arabic_Term": "رَبٌّ"
+		},
+		{
+			"Bengali_Meaning": "গলার হার",
+			"Arabic_Term": "عِقْدٌ"
+		},
+		{
+			"Bengali_Meaning": "উত্তম",
+			"Arabic_Term": "طَيِّبٌ"
+		}
+	],
+	"Module 7": [
+		{
+			"Bengali_Meaning": "গ্রাম",
+			"Arabic_Term": "قَرْيَةٌ"
+		},
+		{
+			"Bengali_Meaning": "শহর",
+			"Arabic_Term": "مَدِينَةٌ"
+		},
+		{
+			"Bengali_Meaning": "দৃশ্য",
+			"Arabic_Term": "مَنْظَرٌ"
+		},
+		{
+			"Bengali_Meaning": "রাস্তা",
+			"Arabic_Term": "طَرِيقٌ"
+		},
+		{
+			"Bengali_Meaning": "কথা",
+			"Arabic_Term": "كَلَامٌ"
+		},
+		{
+			"Bengali_Meaning": "বাজার",
+			"Arabic_Term": "سُوْقٌ"
+		}
+	],
+	"Module 8": [
+		{
+			"Bengali_Meaning": "কবর",
+			"Arabic_Term": "قَبْرٌ"
+		},
+		{
+			"Bengali_Meaning": "আজাব",
+			"Arabic_Term": "عَذَابٌ"
+		},
+		{
+			"Bengali_Meaning": "সহজ",
+			"Arabic_Term": "سَهْلٌ"
+		},
+		{
+			"Bengali_Meaning": "কঠিন",
+			"Arabic_Term": "صَعْبٌ"
+		},
+		{
+			"Bengali_Meaning": "উত্তর",
+			"Arabic_Term": "جَوَابٌ"
+		},
+		{
+			"Bengali_Meaning": "প্রশ্ন",
+			"Arabic_Term": "سُؤَالٌ"
+		},
+		{
+			"Bengali_Meaning": "রাগ",
+			"Arabic_Term": "غَضَبٌ"
+		},
+		{
+			"Bengali_Meaning": "সত্তা",
+			"Arabic_Term": "حَقٌّ"
+		},
+		{
+			"Bengali_Meaning": "খেয়ানতকারী",
+			"Arabic_Term": "خَائِنٌ"
+		},
+		{
+			"Bengali_Meaning": "মুমিন",
+			"Arabic_Term": "مُؤْمِنٌ"
+		},
+		{
+			"Bengali_Meaning": "স্ত্রী",
+			"Arabic_Term": "زَوْجَةٌ"
+		},
+		{
+			"Bengali_Meaning": "স্বামী",
+			"Arabic_Term": "زَوْجٌ"
+		},
+		{
+			"Bengali_Meaning": "মাতা",
+			"Arabic_Term": "وَالِدَةٌ"
+		},
+		{
+			"Bengali_Meaning": "পিতা",
+			"Arabic_Term": "وَالِدٌ"
+		},
+		{
+			"Bengali_Meaning": "লাঙ্গল",
+			"Arabic_Term": "مِحْرَاثٌ"
+		},
+		{
+			"Bengali_Meaning": "ডাস্টার",
+			"Arabic_Term": "مِمْسَحَةٌ"
+		},
+		{
+			"Bengali_Meaning": "ভাঙা",
+			"Arabic_Term": "مَكْسُورٌ"
+		},
+		{
+			"Bengali_Meaning": "মানচিত্র",
+			"Arabic_Term": "خَارِطَةٌ"
+		},
+		{
+			"Bengali_Meaning": "পৃথিবী",
+			"Arabic_Term": "اَلْأَرْضُ"
+		},
+		{
+			"Bengali_Meaning": "আকাশ",
+			"Arabic_Term": "اَلسَّمَاءُ"
+		},
+		{
+			"Bengali_Meaning": "ঘটনা",
+			"Arabic_Term": "قِصَّةٌ"
+		},
+		{
+			"Bengali_Meaning": "কলব",
+			"Arabic_Term": "قَلْبٌ"
+		},
+		{
+			"Bengali_Meaning": "অন্ধকার",
+			"Arabic_Term": "ظُلْمَةٌ"
+		},
+		{
+			"Bengali_Meaning": "আলো",
+			"Arabic_Term": "نُوْرٌ"
+		},
+		{
+			"Bengali_Meaning": "শ্রেণি কক্ষ",
+			"Arabic_Term": "فَصْلٌ"
+		},
+		{
+			"Bengali_Meaning": "ফেরেশতা",
+			"Arabic_Term": "مَلَكٌ"
+		},
+		{
+			"Bengali_Meaning": "নতুন চাঁদ",
+			"Arabic_Term": "هِلَالٌ"
+		},
+		{
+			"Bengali_Meaning": "চাঁদ",
+			"Arabic_Term": "قَمَرٌ"
+		}
+	],
+	"Module 9": [
+		{
+			"Bengali_Meaning": "কবি",
+			"Arabic_Term": "شَاعِرٌ"
+		},
+		{
+			"Bengali_Meaning": "পূর্ণিমার চাঁদ",
+			"Arabic_Term": "بَدْرٌ"
+		},
+		{
+			"Bengali_Meaning": "ঘৃণা",
+			"Arabic_Term": "عِشْقٌ"
+		},
+		{
+			"Bengali_Meaning": "আওয়াজ",
+			"Arabic_Term": "صَوْتٌ"
+		},
+		{
+			"Bengali_Meaning": "গভীর",
+			"Arabic_Term": "عَمِيقٌ"
+		},
+		{
+			"Bengali_Meaning": "হাওজ",
+			"Arabic_Term": "حَوْضٌ"
+		},
+		{
+			"Bengali_Meaning": "ওড়না",
+			"Arabic_Term": "خِمَارٌ"
+		},
+		{
+			"Bengali_Meaning": "অস্ত্র",
+			"Arabic_Term": "سِلَاحٌ"
+		},
+		{
+			"Bengali_Meaning": "বিমানবন্দর",
+			"Arabic_Term": "مَطَارٌ"
+		},
+		{
+			"Bengali_Meaning": "রাজধানী",
+			"Arabic_Term": "عَاصِمَةٌ"
+		},
+		{
+			"Bengali_Meaning": "ধীরগামী",
+			"Arabic_Term": "بَطِيئٌ"
+		},
+		{
+			"Bengali_Meaning": "দ্রুতগামী",
+			"Arabic_Term": "سَرِيعٌ"
+		},
+		{
+			"Bengali_Meaning": "ফল",
+			"Arabic_Term": "فَاكِهَةٌ - ثَمَرَةٌ"
+		},
+		{
+			"Bengali_Meaning": "গোলাপ",
+			"Arabic_Term": "وَرْدَةٌ"
+		},
+		{
+			"Bengali_Meaning": "তিতা",
+			"Arabic_Term": "مُرٌّ"
+		},
+		{
+			"Bengali_Meaning": "সুস্বাদু",
+			"Arabic_Term": "لَذِيذٌ"
+		},
+		{
+			"Bengali_Meaning": "বুড়ি",
+			"Arabic_Term": "سَالَةٌ"
+		},
+		{
+			"Bengali_Meaning": "হাত",
+			"Arabic_Term": "يَدٌ"
+		},
+		{
+			"Bengali_Meaning": "একটি তরবারি",
+			"Arabic_Term": "سَيْفٌ"
+		},
+		{
+			"Bengali_Meaning": "একটি বন্দুক",
+			"Arabic_Term": "بُنْدُقِيَّةٌ"
+		},
+		{
+			"Bengali_Meaning": "একটি দুর্গ",
+			"Arabic_Term": "حِصْنٌ - قَلْعَةٌ"
+		},
+		{
+			"Bengali_Meaning": "একটি তীর",
+			"Arabic_Term": "سَهْمٌ"
+		},
+		{
+			"Bengali_Meaning": "একটি রান্নাঘর",
+			"Arabic_Term": "مَطْبَحٌ"
+		},
+		{
+			"Bengali_Meaning": "একটি থালা",
+			"Arabic_Term": "صَحْنٌ"
+		},
+		{
+			"Bengali_Meaning": "একটি মাছ",
+			"Arabic_Term": "سَمَكَةٌ"
+		},
+		{
+			"Bengali_Meaning": "একটি চুলা",
+			"Arabic_Term": "مَوْقِدٌ"
+		},
+		{
+			"Bengali_Meaning": "দুধ",
+			"Arabic_Term": "لَبَنٌ"
+		},
+		{
+			"Bengali_Meaning": "একটি ডিম",
+			"Arabic_Term": "بَيْضَةٌ"
+		}
+	],
+	"Module 10": [
+		{
+			"Bengali_Meaning": "গোশত",
+			"Arabic_Term": "لَحْمٌ"
+		},
+		{
+			"Bengali_Meaning": "মধু",
+			"Arabic_Term": "عَسَلٌ"
+		},
+		{
+			"Bengali_Meaning": "বাসি",
+			"Arabic_Term": "بَايِتٌ - بَايِتَةٌ"
+		},
+		{
+			"Bengali_Meaning": "তাজা",
+			"Arabic_Term": "طَازَجٌ - طَازَجَةٌ"
+		},
+		{
+			"Bengali_Meaning": "নষ্ট",
+			"Arabic_Term": "فَاسِدٌ - فَاسِدَةٌ"
+		},
+		{
+			"Bengali_Meaning": "খাঁটি",
+			"Arabic_Term": "خَالِصٌ - خَالِصَةٌ"
+		},
+		{
+			"Bengali_Meaning": "একটি খাবার",
+			"Arabic_Term": "طَعَامٌ"
+		},
+		{
+			"Bengali_Meaning": "একটি রুটি",
+			"Arabic_Term": "خُبْزٌ"
+		},
+		{
+			"Bengali_Meaning": "একটি ডাল",
+			"Arabic_Term": "غُصْنٌ"
+		},
+		{
+			"Bengali_Meaning": "একটি গাছ",
+			"Arabic_Term": "شَجَرَةٌ"
+		},
+		{
+			"Bengali_Meaning": "একটি পাতা",
+			"Arabic_Term": "وَرَقَةٌ"
+		},
+		{
+			"Bengali_Meaning": "একটি ফুল",
+			"Arabic_Term": "زَهْرَةٌ"
+		},
+		{
+			"Bengali_Meaning": "একটি বন",
+			"Arabic_Term": "غَابَةٌ"
+		},
+		{
+			"Bengali_Meaning": "একটি পাহাড়",
+			"Arabic_Term": "جَبَلٌ"
+		},
+		{
+			"Bengali_Meaning": "একটি ট্রেন",
+			"Arabic_Term": "قِطَارٌ"
+		},
+		{
+			"Bengali_Meaning": "একটি স্টেশন",
+			"Arabic_Term": "مَحَطَّةٌ"
+		},
+		{
+			"Bengali_Meaning": "খাটো",
+			"Arabic_Term": "قَصِيرٌ"
+		},
+		{
+			"Bengali_Meaning": "লম্বা",
+			"Arabic_Term": "طَوِيلٌ"
+		},
+		{
+			"Bengali_Meaning": "পানি",
+			"Arabic_Term": "مَاءٌ"
+		},
+		{
+			"Bengali_Meaning": "মিনার",
+			"Arabic_Term": "مَنَارَةٌ"
+		},
+		{
+			"Bengali_Meaning": "গরম",
+			"Arabic_Term": "حَارٌّ"
+		},
+		{
+			"Bengali_Meaning": "ঠান্ডা",
+			"Arabic_Term": "بَارِدٌ"
+		},
+		{
+			"Bengali_Meaning": "অনেক, বেশি",
+			"Arabic_Term": "كَثِيرٌ"
+		},
+		{
+			"Bengali_Meaning": "কম, অল্প",
+			"Arabic_Term": "قَلِيلٌ"
+		},
+		{
+			"Bengali_Meaning": "উঁচু, দামী",
+			"Arabic_Term": "غَالٍ - غَالِيَةٌ"
+		},
+		{
+			"Bengali_Meaning": "একজন রোগী",
+			"Arabic_Term": "مَرِيضٌ"
+		},
+		{
+			"Bengali_Meaning": "একজন ডাক্তার",
+			"Arabic_Term": "طَبِيبٌ"
+		},
+		{
+			"Bengali_Meaning": "কৃপণ",
+			"Arabic_Term": "بَخِيلٌ"
+		},
+		{
+			"Bengali_Meaning": "একজন দানশীল মানুষ",
+			"Arabic_Term": "سَخِيٌّ"
+		},
+		{
+			"Bengali_Meaning": "লেখক",
+			"Arabic_Term": "كَاتِبٌ"
+		},
+		{
+			"Bengali_Meaning": "একজন বিশ্বস্ত লোক",
+			"Arabic_Term": "أَمِينٌ"
+		},
+		{
+			"Bengali_Meaning": "একটি বকরি",
+			"Arabic_Term": "شَاةٌ"
+		},
+		{
+			"Bengali_Meaning": "একটি গাড়ি",
+			"Arabic_Term": "بَقَرَةٌ"
+		},
+		{
+			"Bengali_Meaning": "একটি মুরগি",
+			"Arabic_Term": "دَجَاجَةٌ"
+		},
+		{
+			"Bengali_Meaning": "একটি মোরগ",
+			"Arabic_Term": "دِيكٌ"
+		},
+		{
+			"Bengali_Meaning": "উদ্যামী",
+			"Arabic_Term": "نَشِيطٌ"
+		},
+		{
+			"Bengali_Meaning": "আলস",
+			"Arabic_Term": "كَسْلَانُ - كَسْلَانَةٌ"
+		},
+		{
+			"Bengali_Meaning": "একজন গোয়ালা",
+			"Arabic_Term": "لَبَّانٌ"
+		},
+		{
+			"Bengali_Meaning": "একজন দর্জি",
+			"Arabic_Term": "خَيَّاطٌ"
+		},
+		{
+			"Bengali_Meaning": "একজন চালক",
+			"Arabic_Term": "سَائِقٌ"
+		},
+		{
+			"Bengali_Meaning": "একজন শিকারী",
+			"Arabic_Term": "صَيَّادٌ"
+		},
+		{
+			"Bengali_Meaning": "একজন খেলোয়াড়",
+			"Arabic_Term": "لَاعِبٌ"
+		},
+		{
+			"Bengali_Meaning": "একজন বাবুর্চি",
+			"Arabic_Term": "طَبَّاخٌ"
+		},
+		{
+			"Bengali_Meaning": "মিথ্যবাদী",
+			"Arabic_Term": "كَاذِبٌ"
+		},
+		{
+			"Bengali_Meaning": "সৎবাদী",
+			"Arabic_Term": "صَادِقٌ"
+		},
+		{
+			"Bengali_Meaning": "অহংকারী",
+			"Arabic_Term": "مُتَكَبِّرٌ"
+		},
+		{
+			"Bengali_Meaning": "বিনয়ী",
+			"Arabic_Term": "مُتَوَاضِعٌ"
+		},
+		{
+			"Bengali_Meaning": "একটি আপেল",
+			"Arabic_Term": "تُفَّاحَةٌ"
+		},
+		{
+			"Bengali_Meaning": "একটি আঙ্গুর",
+			"Arabic_Term": "عِنَبٌ"
+		},
+		{
+			"Bengali_Meaning": "একটি তরমুজ",
+			"Arabic_Term": "بَطِّيخَةٌ"
+		},
+		{
+			"Bengali_Meaning": "একটি আনার",
+			"Arabic_Term": "رُمَّانَةٌ"
+		},
+		{
+			"Bengali_Meaning": "টক",
+			"Arabic_Term": "حَامِضٌ"
+		},
+		{
+			"Bengali_Meaning": "মিষ্টি",
+			"Arabic_Term": "حُلْوٌ"
+		},
+		{
+			"Bengali_Meaning": "একটি হার",
+			"Arabic_Term": "عِقْدٌ"
+		},
+		{
+			"Bengali_Meaning": "একটি বালা",
+			"Arabic_Term": "سُوَارٌ"
+		},
+		{
+			"Bengali_Meaning": "দামী",
+			"Arabic_Term": "قَيِّمٌ"
+		},
+		{
+			"Bengali_Meaning": "কম দামী",
+			"Arabic_Term": "رَخِيصٌ"
+		}
+	],
+	"Module 11": [
+		{
+			"Bengali_Meaning": "একটি কাক",
+			"Arabic_Term": "غُرَابٌ"
+		},
+		{
+			"Bengali_Meaning": "একটি প্রাণী",
+			"Arabic_Term": "حَيَوَانٌ"
+		},
+		{
+			"Bengali_Meaning": "একটি শুঁড়",
+			"Arabic_Term": "خُرْطُومٌ"
+		},
+		{
+			"Bengali_Meaning": "একটি হাতি",
+			"Arabic_Term": "فِيلٌ"
+		},
+		{
+			"Bengali_Meaning": "একটি চড়ুই",
+			"Arabic_Term": "عُصْفُورٌ"
+		},
+		{
+			"Bengali_Meaning": "একটি বানর",
+			"Arabic_Term": "قِرْدٌ"
+		},
+		{
+			"Bengali_Meaning": "বুক",
+			"Arabic_Term": "صَدْرٌ"
+		},
+		{
+			"Bengali_Meaning": "একজন মানুষ",
+			"Arabic_Term": "إِنْسَانٌ"
+		},
+		{
+			"Bengali_Meaning": "মুখ",
+			"Arabic_Term": "فَمٌ"
+		},
+		{
+			"Bengali_Meaning": "জিহ্বা",
+			"Arabic_Term": "لِسَانٌ"
+		},
+		{
+			"Bengali_Meaning": "মহান, বিরাট",
+			"Arabic_Term": "عَظِيمٌ"
+		},
+		{
+			"Bengali_Meaning": "জিকির, স্মরণ",
+			"Arabic_Term": "ذِكْرٌ"
+		},
+		{
+			"Bengali_Meaning": "দেহ, শরীর",
+			"Arabic_Term": "جِسْمٌ"
+		},
+		{
+			"Bengali_Meaning": "মাথা",
+			"Arabic_Term": "رَأْسٌ"
+		},
+		{
+			"Bengali_Meaning": "একটি হরিণ",
+			"Arabic_Term": "ظَبْيٌ"
+		},
+		{
+			"Bengali_Meaning": "খাদ্য",
+			"Arabic_Term": "غِذَاءٌ"
+		},
+		{
+			"Bengali_Meaning": "একটি ঘোড়া",
+			"Arabic_Term": "فَرَسٌ"
+		},
+		{
+			"Bengali_Meaning": "একটি কুকুর",
+			"Arabic_Term": "كَلْبٌ"
+		},
+		{
+			"Bengali_Meaning": "একটি বাঘ",
+			"Arabic_Term": "نَمِرٌ"
+		},
+		{
+			"Bengali_Meaning": "একটি নেকড়ে",
+			"Arabic_Term": "ذِئْبٌ"
+		},
+		{
+			"Bengali_Meaning": "একটি সিংহ",
+			"Arabic_Term": "أَسَدٌ"
+		},
+		{
+			"Bengali_Meaning": "একটি গাধা",
+			"Arabic_Term": "حِمَارٌ"
+		},
+		{
+			"Bengali_Meaning": "লোভী",
+			"Arabic_Term": "حَرِيْصٌ"
+		},
+		{
+			"Bengali_Meaning": "লোভ",
+			"Arabic_Term": "حِرْصٌ"
+		},
+		{
+			"Bengali_Meaning": "চুল",
+			"Arabic_Term": "شَعْرٌ"
+		},
+		{
+			"Bengali_Meaning": "রং",
+			"Arabic_Term": "لَوْنٌ"
+		},
+		{
+			"Bengali_Meaning": "নাক",
+			"Arabic_Term": "أَنْفٌ"
+		},
+		{
+			"Bengali_Meaning": "চেহারা",
+			"Arabic_Term": "وَجْهٌ"
+		},
+		{
+			"Bengali_Meaning": "গাল",
+			"Arabic_Term": "خَدٌّ"
+		},
+		{
+			"Bengali_Meaning": "চোখ",
+			"Arabic_Term": "عَيْنٌ"
+		},
+		{
+			"Bengali_Meaning": "পিঠ",
+			"Arabic_Term": "ظَهْرٌ"
+		},
+		{
+			"Bengali_Meaning": "পেট",
+			"Arabic_Term": "بَطْنٌ"
+		},
+		{
+			"Bengali_Meaning": "সহপাঠী",
+			"Arabic_Term": "زَمِيلٌ"
+		},
+		{
+			"Bengali_Meaning": "গন্ধ, ঘ্রাণ",
+			"Arabic_Term": "رَائِحَةٌ"
+		},
+		{
+			"Bengali_Meaning": "আজানখানা",
+			"Arabic_Term": "مِئْذَنَةٌ"
+		},
+		{
+			"Bengali_Meaning": "সাথে",
+			"Arabic_Term": "مَعَ"
+		},
+		{
+			"Bengali_Meaning": "ছাদ",
+			"Arabic_Term": "سَقْفٌ"
+		},
+		{
+			"Bengali_Meaning": "লাইব্রেরি",
+			"Arabic_Term": "مَكْتَبَةٌ"
+		},
+		{
+			"Bengali_Meaning": "অকল্যাণকর",
+			"Arabic_Term": "شَرٌّ"
+		},
+		{
+			"Bengali_Meaning": "কল্যাণকর",
+			"Arabic_Term": "خَيْرٌ"
+		},
+		{
+			"Bengali_Meaning": "সিংহ",
+			"Arabic_Term": "أَسَدٌ"
+		},
+		{
+			"Bengali_Meaning": "ইঁদুর",
+			"Arabic_Term": "فَأْرٌ"
+		},
+		{
+			"Bengali_Meaning": "সাগর",
+			"Arabic_Term": "بَحْرٌ"
+		},
+		{
+			"Bengali_Meaning": "নদী",
+			"Arabic_Term": "نَهْرٌ"
+		},
+		{
+			"Bengali_Meaning": "নৌকা",
+			"Arabic_Term": "زَوْرَقٌ"
+		},
+		{
+			"Bengali_Meaning": "পুল, ব্রিজ",
+			"Arabic_Term": "جِسْرٌ"
+		},
+		{
+			"Bengali_Meaning": "শ্রেণিকক্ষ",
+			"Arabic_Term": "فَصْلٌ"
+		},
+		{
+			"Bengali_Meaning": "শ্রেণি",
+			"Arabic_Term": "صَفٌّ"
+		},
+		{
+			"Bengali_Meaning": "জাহান্নাম",
+			"Arabic_Term": "اَلنَّارُ"
+		},
+		{
+			"Bengali_Meaning": "আগুন",
+			"Arabic_Term": "نَارٌ"
+		},
+		{
+			"Bengali_Meaning": "মাকবূল, গ্রহণযোগ্য",
+			"Arabic_Term": "مَقْبُولٌ"
+		},
+		{
+			"Bengali_Meaning": "অফিস",
+			"Arabic_Term": "مَكْتَبٌ"
+		},
+		{
+			"Bengali_Meaning": "শিং",
+			"Arabic_Term": "قَرْنٌ"
+		},
+		{
+			"Bengali_Meaning": "চামড়া",
+			"Arabic_Term": "جِلْدٌ"
+		},
+		{
+			"Bengali_Meaning": "লেজ",
+			"Arabic_Term": "ذَيْلٌ"
+		},
+		{
+			"Bengali_Meaning": "ওলান",
+			"Arabic_Term": "ضَرْعٌ"
+		},
+		{
+			"Bengali_Meaning": "শক্তিশালী",
+			"Arabic_Term": "قَوِيٌّ"
+		},
+		{
+			"Bengali_Meaning": "শক্তি",
+			"Arabic_Term": "قُوَّةٌ"
+		},
+		{
+			"Bengali_Meaning": "সততা",
+			"Arabic_Term": "صَلَاحٌ"
+		},
+		{
+			"Bengali_Meaning": "সৎ",
+			"Arabic_Term": "صَالِحٌ"
+		},
+		{
+			"Bengali_Meaning": "মূর্তি",
+			"Arabic_Term": "صَنَمٌ"
+		},
+		{
+			"Bengali_Meaning": "কয়লা",
+			"Arabic_Term": "فَحْمٌ"
+		},
+		{
+			"Bengali_Meaning": "কুয়া",
+			"Arabic_Term": "بِئْرٌ"
+		},
+		{
+			"Bengali_Meaning": "পুকুর",
+			"Arabic_Term": "غَدِيرٌ"
+		},
+		{
+			"Bengali_Meaning": "কামার",
+			"Arabic_Term": "حَدَّادٌ"
+		},
+		{
+			"Bengali_Meaning": "কাঠমিস্ত্রি",
+			"Arabic_Term": "نَجَّارٌ"
+		},
+		{
+			"Bengali_Meaning": "অর্ধেক",
+			"Arabic_Term": "نِصْفٌ"
+		},
+		{
+			"Bengali_Meaning": "ধোঁয়া",
+			"Arabic_Term": "دُخَانٌ"
+		},
+		{
+			"Bengali_Meaning": "স্বাদ",
+			"Arabic_Term": "لَذَّةٌ"
+		},
+		{
+			"Bengali_Meaning": "সৌন্দর্য",
+			"Arabic_Term": "جَمَالٌ"
+		},
+		{
+			"Bengali_Meaning": "ঘন্টা, বেল",
+			"Arabic_Term": "جَرَسٌ"
+		},
+		{
+			"Bengali_Meaning": "বসতি",
+			"Arabic_Term": "سُكْنَى"
+		},
+		{
+			"Bengali_Meaning": "আশেক",
+			"Arabic_Term": "عَاشِقٌ"
+		},
+		{
+			"Bengali_Meaning": "প্রাঙ্গন",
+			"Arabic_Term": "سَاحَةٌ"
+		},
+		{
+			"Bengali_Meaning": "সুই",
+			"Arabic_Term": "إِبْرَةٌ"
+		},
+		{
+			"Bengali_Meaning": "সুতো",
+			"Arabic_Term": "خَيْطٌ"
+		}
+	],
+	"Module 12 (Past Tense - Conjugations)": [
+		{
+			"Verb_Root": "فَعَلَ",
+			"Bengali_Meaning": "সে (পুং) করেছে, করল",
+			"Arabic_Term": "فَعَلَ",
+			"Grammatical_Context": "واحد مذكّر غائب"
+		},
+		{
+			"Verb_Root": "فَعَلَ",
+			"Bengali_Meaning": "সে (স্ত্রী) করেছে, করল",
+			"Arabic_Term": "فَعَلَتْ",
+			"Grammatical_Context": "واحد مؤنث غائب"
+		},
+		{
+			"Verb_Root": "فَعَلَ",
+			"Bengali_Meaning": "তুমি (পুং) করেছো, করলে",
+			"Arabic_Term": "فَعَلْتَ",
+			"Grammatical_Context": "واحد مذكّر حاضر"
+		},
+		{
+			"Verb_Root": "فَعَلَ",
+			"Bengali_Meaning": "তুমি (স্ত্রী) করেছো, করলে",
+			"Arabic_Term": "فَعَلْتِ",
+			"Grammatical_Context": "واحد مؤنث حاضر"
+		},
+		{
+			"Verb_Root": "فَعَلَ",
+			"Bengali_Meaning": "আমি (পুং-স্ত্রী) করেছি, করলাম",
+			"Arabic_Term": "فَعَلْتُ",
+			"Grammatical_Context": "واحد مذكّر و مؤنث متكلّم"
+		},
+		{
+			"Verb_Root": "خَرَجَ",
+			"Bengali_Meaning": "সে (পুং) বের হয়েছে, হলো",
+			"Arabic_Term": "خَرَجَ",
+			"Grammatical_Context": "واحد مذكّر غائب"
+		},
+		{
+			"Verb_Root": "خَرَجَ",
+			"Bengali_Meaning": "সে (স্ত্রী) বের হয়েছে, হলো",
+			"Arabic_Term": "خَرَجَتْ",
+			"Grammatical_Context": "واحد مؤنث غائب"
+		},
+		{
+			"Verb_Root": "খَرَجَ",
+			"Bengali_Meaning": "তুমি (পুং) বের হয়েছো, হলে",
+			"Arabic_Term": "خَرَجْتَ",
+			"Grammatical_Context": "واحد مذكّر حاضر"
+		},
+		{
+			"Verb_Root": "خَرَجَ",
+			"Bengali_Meaning": "তুমি (স্ত্রী) বের হয়েছো, হলে",
+			"Arabic_Term": "خَرَجْتِ",
+			"Grammatical_Context": "واحد مؤنث حاضر"
+		},
+		{
+			"Verb_Root": "خَرَجَ",
+			"Bengali_Meaning": "আমি (পুং-স্ত্রী) বের হয়েছি, হলাম",
+			"Arabic_Term": "خَرَجْتُ",
+			"Grammatical_Context": "واحد مذكّر ও مؤنث متكلّم"
+		},
+		{
+			"Verb_Root": "ذَهَبَ",
+			"Bengali_Meaning": "সে (পুং) গিয়েছে, গেলো",
+			"Arabic_Term": "ذَهَبَ",
+			"Grammatical_Context": "واحد مذكّر غائب"
+		},
+		{
+			"Verb_Root": "ذَهَبَ",
+			"Bengali_Meaning": "সে (স্ত্রী) গিয়েছে, গেলো",
+			"Arabic_Term": "ذَهَبَتْ",
+			"Grammatical_Context": "واحد مؤنث غائب"
+		},
+		{
+			"Verb_Root": "ذَهَبَ",
+			"Bengali_Meaning": "তুমি (পুং) গিয়েছো, গেলে",
+			"Arabic_Term": "ذَهَبْتَ",
+			"Grammatical_Context": "واحد مذكّر حاضر"
+		},
+		{
+			"Verb_Root": "ذَهَبَ",
+			"Bengali_Meaning": "তুমি (স্ত্রী) গিয়েছো, গেলে",
+			"Arabic_Term": "ذَهَبْتِ",
+			"Grammatical_Context": "واحد مؤنث حاضر"
+		},
+		{
+			"Verb_Root": "ذَهَبَ",
+			"Bengali_Meaning": "আমি (পুং-স্ত্রী) গিয়েছি, গেলাম",
+			"Arabic_Term": "ذَهَبْتُ",
+			"Grammatical_Context": "واحد مذكّر ও مؤنث متكلّم"
+		},
+		{
+			"Verb_Root": "جَلَسَ",
+			"Bengali_Meaning": "সে (পুং) বসেছে, বসলো",
+			"Arabic_Term": "جَلَسَ",
+			"Grammatical_Context": "واحد مذكّر غائب"
+		},
+		{
+			"Verb_Root": "جَلَسَ",
+			"Bengali_Meaning": "সে (স্ত্রী) বসেছে, বসলো",
+			"Arabic_Term": "جَلَسَتْ",
+			"Grammatical_Context": "واحد مؤنث غائب"
+		},
+		{
+			"Verb_Root": "جَلَسَ",
+			"Bengali_Meaning": "তুমি (পুং) বসেছো, বসলে",
+			"Arabic_Term": "جَلَسْتَ",
+			"Grammatical_Context": "واحد مذكّر حاضر"
+		},
+		{
+			"Verb_Root": "جَلَسَ",
+			"Bengali_Meaning": "তুমি (স্ত্রী) বসেছো, বসলে",
+			"Arabic_Term": "جَلَسْتِ",
+			"Grammatical_Context": "واحد مذكّر حاضر"
+		},
+		{
+			"Verb_Root": "جَلَسَ",
+			"Bengali_Meaning": "আমি (পুং-স্ত্রী) বসেছি, বসলাম",
+			"Arabic_Term": "جَلَسْتُ",
+			"Grammatical_Context": "واحد مذكّر ও مؤنث متكلّم"
+		},
+		{
+			"Verb_Root": "قَرَأَ",
+			"Bengali_Meaning": "সে (পুং) পড়েছে, পড়লো",
+			"Arabic_Term": "قَرَأَ",
+			"Grammatical_Context": "واحد مذكّر غائب"
+		},
+		{
+			"Verb_Root": "قَرَأَ",
+			"Bengali_Meaning": "সে (স্ত্রী) পড়েছে, পড়লো",
+			"Arabic_Term": "قَرَأَتْ",
+			"Grammatical_Context": "واحد مؤنث غائب"
+		},
+		{
+			"Verb_Root": "قَرَأَ",
+			"Bengali_Meaning": "তুমি (পুং) পড়েছো, পড়লে",
+			"Arabic_Term": "قَرَأْتَ",
+			"Grammatical_Context": "واحد مذكّر حاضر"
+		},
+		{
+			"Verb_Root": "قَرَأَ",
+			"Bengali_Meaning": "তুমি (স্ত্রী) পড়েছো, পড়লে",
+			"Arabic_Term": "قَرَأْتِ",
+			"Grammatical_Context": "واحد مؤنث حاضر"
+		},
+		{
+			"Verb_Root": "قَرَأَ",
+			"Bengali_Meaning": "আমি (পুং-স্ত্রী) পড়েছি, পড়লাম",
+			"Arabic_Term": "قَرَأْتُ",
+			"Grammatical_Context": "واحد مذكّر ও مؤنث متكلّم"
+		},
+		{
+			"Verb_Root": "كَتَبَ",
+			"Bengali_Meaning": "সে (পুং) লিখেছে, লিখলো",
+			"Arabic_Term": "كَتَبَ",
+			"Grammatical_Context": "واحد مذكّر غائب"
+		},
+		{
+			"Verb_Root": "كَتَبَ",
+			"Bengali_Meaning": "সে (স্ত্রী) লিখেছে, লিখলো",
+			"Arabic_Term": "كَتَبَتْ",
+			"Grammatical_Context": "واحد مؤنث غائب"
+		},
+		{
+			"Verb_Root": "كَتَبَ",
+			"Bengali_Meaning": "তুমি (পুং) লিখেছো, লিখলে",
+			"Arabic_Term": "كَتَبْتَ",
+			"Grammatical_Context": "واحد مذكّر حاضر"
+		},
+		{
+			"Verb_Root": "كَتَبَ",
+			"Bengali_Meaning": "তুমি (স্ত্রী) লিখেছো, লিখলে",
+			"Arabic_Term": "كَتَبْتِ",
+			"Grammatical_Context": "واحد مذكّر حاضر"
+		},
+		{
+			"Verb_Root": "كَتَبَ",
+			"Bengali_Meaning": "আমি (পুং-স্ত্রী) লিখেছি, লিখলাম",
+			"Arabic_Term": "كَتَبْتُ",
+			"Grammatical_Context": "واحد مذكّر و مؤنث متكلّم"
+		},
+		{
+			"Verb_Root": "رَجَعَ",
+			"Bengali_Meaning": "সে (পুং) ফিরেছে, ফিরলো",
+			"Arabic_Term": "رَجَعَ",
+			"Grammatical_Context": "واحد مذكّر غائب"
+		},
+		{
+			"Verb_Root": "رَجَعَ",
+			"Bengali_Meaning": "সে (স্ত্রী) ফিরেছে, ফিরলো",
+			"Arabic_Term": "رَجَعَتْ",
+			"Grammatical_Context": "واحد مؤنث غائب"
+		},
+		{
+			"Verb_Root": "رَجَعَ",
+			"Bengali_Meaning": "তুমি (পুং) ফিরেছো, ফিরলে",
+			"Arabic_Term": "رَجَعْتَ",
+			"Grammatical_Context": "واحد مذكّر حاضر"
+		},
+		{
+			"Verb_Root": "رَجَعَ",
+			"Bengali_Meaning": "তুমি (স্ত্রী) ফিরেছো, ফিরলে",
+			"Arabic_Term": "رَجَعْتِ",
+			"Grammatical_Context": "واحد مؤنث حاضر"
+		},
+		{
+			"Verb_Root": "رَجَعَ",
+			"Bengali_Meaning": "আমি (পুং-স্ত্রী) ফিরেছি, ফিরলাম",
+			"Arabic_Term": "رَجَعْتُ",
+			"Grammatical_Context": "واحد مذكّر ও مؤنث متكلّم"
+		},
+		{
+			"Verb_Root": "لَعِبَ",
+			"Bengali_Meaning": "সে (পুং) খেলেছে, খেললো",
+			"Arabic_Term": "لَعِبَ",
+			"Grammatical_Context": "واحد مذكّر غائب"
+		},
+		{
+			"Verb_Root": "لَعِبَ",
+			"Bengali_Meaning": "সে (স্ত্রী) খেলেছে, খেললো",
+			"Arabic_Term": "لَعِبَتْ",
+			"Grammatical_Context": "واحد مؤنث غائب"
+		},
+		{
+			"Verb_Root": "لَعِبَ",
+			"Bengali_Meaning": "তুমি (পুং) খেলেছো, খেললে",
+			"Arabic_Term": "لَعِبْتَ",
+			"Grammatical_Context": "واحد مذكّر حاضر"
+		},
+		{
+			"Verb_Root": "لَعِبَ",
+			"Bengali_Meaning": "তুমি (স্ত্রী) খেলেছো, খেললে",
+			"Arabic_Term": "لَعِبْتِ",
+			"Grammatical_Context": "واحد مؤنث حاضر"
+		},
+		{
+			"Verb_Root": "لَعِبَ",
+			"Bengali_Meaning": "আমি (পুং-স্ত্রী) খেলেছি, খেললাম",
+			"Arabic_Term": "لَعِبْتُ",
+			"Grammatical_Context": "واحد مذكّر ও مؤنث متكلّم"
+		}
+	],
+	"Module 13 (Present Tense & Imperative)": [
+		{
+			"Verb_Context": "Present Tense",
+			"Bengali_Meaning": "সে (পুং) করবে, করছে, করে",
+			"Arabic_Term": "يَفْعَلُ",
+			"Grammatical_Context": "واحد مذكّر غائب"
+		},
+		{
+			"Verb_Context": "Present Tense",
+			"Bengali_Meaning": "সে (স্ত্রী) করবে, করছে, করে",
+			"Arabic_Term": "تَفْعَلُ",
+			"Grammatical_Context": "واحد مؤنث غائب"
+		},
+		{
+			"Verb_Context": "Present Tense",
+			"Bengali_Meaning": "তুমি (পুং) করবে, করছো, করো",
+			"Arabic_Term": "تَفْعَلُ",
+			"Grammatical_Context": "واحد مذكّر حاضر"
+		},
+		{
+			"Verb_Context": "Present Tense",
+			"Bengali_Meaning": "তুমি (স্ত্রী) করবে, করছো, করো",
+			"Arabic_Term": "تَفْعَلِينَ",
+			"Grammatical_Context": "واحد مؤنث حاضر"
+		},
+		{
+			"Verb_Context": "Present Tense",
+			"Bengali_Meaning": "আমি করব, করছি, করি",
+			"Arabic_Term": "أَفْعَلُ",
+			"Grammatical_Context": "واحد مذكّر ও مؤনث متكلّم"
+		},
+		{
+			"Verb_Context": "Present Tense",
+			"Bengali_Meaning": "সে (পুং) বের হবে, হচ্ছে, হয়",
+			"Arabic_Term": "يَخْرُجُ",
+			"Grammatical_Context": "واحد مذكّر غائب"
+		},
+		{
+			"Verb_Context": "Present Tense",
+			"Bengali_Meaning": "সে (স্ত্রী) বের হবে, হচ্ছে, হয়",
+			"Arabic_Term": "تَخْرُجُ",
+			"Grammatical_Context": "واحد مؤنث غائب"
+		},
+		{
+			"Verb_Context": "Present Tense",
+			"Bengali_Meaning": "তুমি (পুং) বের হবে, হচ্ছো, হও",
+			"Arabic_Term": "تَخْرُجُ",
+			"Grammatical_Context": "واحد مذكّر حاضر"
+		},
+		{
+			"Verb_Context": "Present Tense",
+			"Bengali_Meaning": "তুমি (স্ত্রী) বের হবে, হচ্ছো, হও",
+			"Arabic_Term": "تَخْرُجِينَ",
+			"Grammatical_Context": "واحد مؤنث حاضر"
+		},
+		{
+			"Verb_Context": "Present Tense",
+			"Bengali_Meaning": "আমি (পুং-স্ত্রী) বের হব, হচ্ছি, হই",
+			"Arabic_Term": "أَخْرُجُ",
+			"Grammatical_Context": "واحد مذكّر ও مؤنث متكلّم"
+		},
+		{
+			"Verb_Context": "Present Tense",
+			"Bengali_Meaning": "সে (পুং) যাবে, যাচ্ছে, যায়",
+			"Arabic_Term": "يَذْهَبُ",
+			"Grammatical_Context": "واحد مذكّر غائب"
+		},
+		{
+			"Verb_Context": "Present Tense",
+			"Bengali_Meaning": "সে (স্ত্রী) যাবে, যাচ্ছে, যায়",
+			"Arabic_Term": "تَذْهَبُ",
+			"Grammatical_Context": "واحد مؤنث غائب"
+		},
+		{
+			"Verb_Context": "Present Tense",
+			"Bengali_Meaning": "তুমি (পুং) যাবে, যাচ্ছো, যাও",
+			"Arabic_Term": "تَذْهَبُ",
+			"Grammatical_Context": "واحد مذكّر حاضر"
+		},
+		{
+			"Verb_Context": "Present Tense",
+			"Bengali_Meaning": "তুমি (স্ত্রী) যাবে, যাচ্ছো, যাও",
+			"Arabic_Term": "تَذْهَبِينَ",
+			"Grammatical_Context": "واحد مؤنث حاضر"
+		},
+		{
+			"Verb_Context": "Present Tense",
+			"Bengali_Meaning": "আমি (পুং-স্ত্রী) যাব, যাচ্ছি, যাই",
+			"Arabic_Term": "أَذْهَبُ",
+			"Grammatical_Context": "واحد مذكّر ও مؤنث متكلّم"
+		},
+		{
+			"Verb_Context": "Present Tense",
+			"Bengali_Meaning": "সে (পুং) বসবে, বসছে, বসে",
+			"Arabic_Term": "يَجْلِسُ",
+			"Grammatical_Context": "واحد مذكّر غائب"
+		},
+		{
+			"Verb_Context": "Present Tense",
+			"Bengali_Meaning": "সে (স্ত্রী) বসবে, বসছে, বসে",
+			"Arabic_Term": "تَجْلِسُ",
+			"Grammatical_Context": "واحد مؤنث غائب"
+		},
+		{
+			"Verb_Context": "Present Tense",
+			"Bengali_Meaning": "তুমি (পুং) বসবে, বসছো, বস",
+			"Arabic_Term": "تَجْلِسُ",
+			"Grammatical_Context": "واحد مذكّر حاضر"
+		},
+		{
+			"Verb_Context": "Present Tense",
+			"Bengali_Meaning": "তুমি (স্ত্রী) বসবে, বসছো, বস",
+			"Arabic_Term": "تَجْلِسِينَ",
+			"Grammatical_Context": "واحد مؤنث حاضر"
+		},
+		{
+			"Verb_Context": "Present Tense",
+			"Bengali_Meaning": "আমি (পুং-স্ত্রী) বসব, বসছি, বসি",
+			"Arabic_Term": "أَجْلِسُ",
+			"Grammatical_Context": "واحد مذكّر ও مؤনث متكلّم"
+		},
+		{
+			"Verb_Context": "Present Tense",
+			"Bengali_Meaning": "সে (পুং) পড়বে, পড়ছে, পড়ে",
+			"Arabic_Term": "يَقْرَأُ",
+			"Grammatical_Context": "واحد مذكّر غائب"
+		},
+		{
+			"Verb_Context": "Present Tense",
+			"Bengali_Meaning": "সে (স্ত্রী) পড়বে, পড়ছে, পড়ে",
+			"Arabic_Term": "تَقْرَأُ",
+			"Grammatical_Context": "واحد مؤنث غائب"
+		},
+		{
+			"Verb_Context": "Present Tense",
+			"Bengali_Meaning": "তুমি (পুং) পড়বে, পড়ছো, পড়ো",
+			"Arabic_Term": "تَقْرَأُ",
+			"Grammatical_Context": "واحد مذكّر حاضر"
+		},
+		{
+			"Verb_Context": "Present Tense",
+			"Bengali_Meaning": "তুমি (স্ত্রী) পড়বে, পড়ছো, পড়ো",
+			"Arabic_Term": "تَقْرَئِينَ",
+			"Grammatical_Context": "واحد مؤনث حاضر"
+		},
+		{
+			"Verb_Context": "Present Tense",
+			"Bengali_Meaning": "আমি (পুং-স্ত্রী) পড়ব, পড়ছি, পড়ি",
+			"Arabic_Term": "أَقْرَأُ",
+			"Grammatical_Context": "واحد مذكّر ও مؤনث متكلّم"
+		},
+		{
+			"Verb_Context": "Present Tense",
+			"Bengali_Meaning": "সে (পুং) লিখবে, লিখছে, লিখে",
+			"Arabic_Term": "يَكْتُبُ",
+			"Grammatical_Context": "واحد مذكّر غائب"
+		},
+		{
+			"Verb_Context": "Present Tense",
+			"Bengali_Meaning": "সে (স্ত্রী) লিখবে, লিখছে, লিখে",
+			"Arabic_Term": "تَكْتُبُ",
+			"Grammatical_Context": "واحد مؤنث غائب"
+		},
+		{
+			"Verb_Context": "Present Tense",
+			"Bengali_Meaning": "তুমি (পুং) লিখবে, লিখছো, লিখ",
+			"Arabic_Term": "تَكْتُبُ",
+			"Grammatical_Context": "واحد مذكّر حاضر"
+		},
+		{
+			"Verb_Context": "Present Tense",
+			"Bengali_Meaning": "তুমি (স্ত্রী) লিখবে, লিখছো, লিখ",
+			"Arabic_Term": "تَكْتُبِينَ",
+			"Grammatical_Context": "واحد مؤنث حاضر"
+		},
+		{
+			"Verb_Context": "Present Tense",
+			"Bengali_Meaning": "আমি (পুং-স্ত্রী) লিখব, লিখছি, লিখি",
+			"Arabic_Term": "أَكْتُبُ",
+			"Grammatical_Context": "واحد مذكّر ও مؤনث متكلّم"
+		},
+		{
+			"Verb_Context": "Present Tense",
+			"Bengali_Meaning": "সে (পুং) ফিরবে, ফিরছে, ফিরে",
+			"Arabic_Term": "يَرْجِعُ",
+			"Grammatical_Context": "واحد مذكّر غائب"
+		},
+		{
+			"Verb_Context": "Present Tense",
+			"Bengali_Meaning": "সে (স্ত্রী) ফিরবে, ফিরছে, ফিরে",
+			"Arabic_Term": "تَرْجِعُ",
+			"Grammatical_Context": "واحد مؤنث غائب"
+		},
+		{
+			"Verb_Context": "Present Tense",
+			"Bengali_Meaning": "তুমি (পুং) ফিরবে, ফিরছো, ফিরো",
+			"Arabic_Term": "تَرْجِعُ",
+			"Grammatical_Context": "واحد مذكّر حاضر"
+		},
+		{
+			"Verb_Context": "Present Tense",
+			"Bengali_Meaning": "তুমি (স্ত্রী) ফিরবে, ফিরছো, ফিরো",
+			"Arabic_Term": "تَرْجِعِينَ",
+			"Grammatical_Context": "واحد مؤنث حاضر"
+		},
+		{
+			"Verb_Context": "Present Tense",
+			"Bengali_Meaning": "আমি (পুং-স্ত্রী) ফিরব, ফিরছি, ফিরি",
+			"Arabic_Term": "أَرْجِعُ",
+			"Grammatical_Context": "واحد مذكّر ও مؤنث متكلّم"
+		},
+		{
+			"Verb_Context": "Present Tense",
+			"Bengali_Meaning": "সে (পুং) খেলবে, খেলছে, খেলে",
+			"Arabic_Term": "يَلْعَبُ",
+			"Grammatical_Context": "واحد مذكّر غائب"
+		},
+		{
+			"Verb_Context": "Present Tense",
+			"Bengali_Meaning": "সে (স্ত্রী) খেলবে, খেলছে, খেলে",
+			"Arabic_Term": "تَلْعَبُ",
+			"Grammatical_Context": "واحد مؤنث غائب"
+		},
+		{
+			"Verb_Context": "Present Tense",
+			"Bengali_Meaning": "তুমি (পুং) খেলবে, খেলছে, খেলো",
+			"Arabic_Term": "تَلْعَبُ",
+			"Grammatical_Context": "واحد مذكّر حاضر"
+		},
+		{
+			"Verb_Context": "Present Tense",
+			"Bengali_Meaning": "তুমি (স্ত্রী) খেলবে, খেলছে, খেলো",
+			"Arabic_Term": "تَلْعَبِينَ",
+			"Grammatical_Context": "واحد مؤنث حاضر"
+		},
+		{
+			"Verb_Context": "Present Tense",
+			"Bengali_Meaning": "আমি (পুং-স্ত্রী) খেলব, খেলছি, খেলি",
+			"Arabic_Term": "أَلْعَبُ",
+			"Grammatical_Context": "واحد مذكّر ও مؤনث متكلّم"
+		},
+		{
+			"Verb_Context": "Imperative",
+			"Bengali_Meaning": "তুমি (পুং) কর",
+			"Arabic_Term": "إِفْعَلْ",
+			"Grammatical_Context": "واحد مذكّر حاضر"
+		},
+		{
+			"Verb_Context": "Imperative",
+			"Bengali_Meaning": "তুমি (স্ত্রী) কর",
+			"Arabic_Term": "إِفْعَلِيْ",
+			"Grammatical_Context": "واحد مؤنث حاضر"
+		},
+		{
+			"Verb_Context": "Negative Imperative",
+			"Bengali_Meaning": "তুমি (পুং) কর না",
+			"Arabic_Term": "لَا تَفْعَلْ",
+			"Grammatical_Context": "واحد مذكّر حاضر"
+		},
+		{
+			"Verb_Context": "Negative Imperative",
+			"Bengali_Meaning": "তুমি (স্ত্রী) কর না",
+			"Arabic_Term": "لَا تَفْعَلِيْ",
+			"Grammatical_Context": "واحد مؤنث حاضر"
+		},
+		{
+			"Verb_Context": "Imperative",
+			"Bengali_Meaning": "তুমি (পুং) বের হও",
+			"Arabic_Term": "أُخْرُجْ",
+			"Grammatical_Context": "واحد مذكّر حاضر"
+		},
+		{
+			"Verb_Context": "Imperative",
+			"Bengali_Meaning": "তুমি (স্ত্রী) বের হও",
+			"Arabic_Term": "أُخْرُجِيْ",
+			"Grammatical_Context": "واحد مؤنث حاضر"
+		},
+		{
+			"Verb_Context": "Negative Imperative",
+			"Bengali_Meaning": "তুমি (পুং) বের হয়ো না",
+			"Arabic_Term": "لَا تَخْرُجْ",
+			"Grammatical_Context": "واحد مذكّر حاضر"
+		},
+		{
+			"Verb_Context": "Negative Imperative",
+			"Bengali_Meaning": "তুমি (স্ত্রী) বের হয়ো না",
+			"Arabic_Term": "لَا تَخْرُجِيْ",
+			"Grammatical_Context": "واحد مؤনث حاضر"
+		},
+		{
+			"Verb_Context": "Imperative",
+			"Bengali_Meaning": "তুমি (পুং) যাও",
+			"Arabic_Term": "إِذْهَبْ",
+			"Grammatical_Context": "واحد مذكّر حاضر"
+		},
+		{
+			"Verb_Context": "Imperative",
+			"Bengali_Meaning": "তুমি (স্ত্রী) যাও",
+			"Arabic_Term": "إِذْهَبِيْ",
+			"Grammatical_Context": "واحد مؤনث حاضر"
+		},
+		{
+			"Verb_Context": "Negative Imperative",
+			"Bengali_Meaning": "তুমি (পুং) যেও না",
+			"Arabic_Term": "لَا تَذْهَبْ",
+			"Grammatical_Context": "واحد مذكّر حاضر"
+		},
+		{
+			"Verb_Context": "Negative Imperative",
+			"Bengali_Meaning": "তুমি (স্ত্রী) যেও না",
+			"Arabic_Term": "لَا تَذْهَبِيْ",
+			"Grammatical_Context": "واحد مؤনث حاضر"
+		},
+		{
+			"Verb_Context": "Imperative",
+			"Bengali_Meaning": "তুমি (পুং) বসো",
+			"Arabic_Term": "إِجْلِسْ",
+			"Grammatical_Context": "واحد مذكّر حاضر"
+		},
+		{
+			"Verb_Context": "Imperative",
+			"Bengali_Meaning": "তুমি (স্ত্রী) বসো",
+			"Arabic_Term": "إِجْلِسِيْ",
+			"Grammatical_Context": "واحد مؤনث حاضر"
+		},
+		{
+			"Verb_Context": "Negative Imperative",
+			"Bengali_Meaning": "তুমি (পুং) বসো না",
+			"Arabic_Term": "لَا تَجْلِسْ",
+			"Grammatical_Context": "واحد مذكّر حاضر"
+		},
+		{
+			"Verb_Context": "Negative Imperative",
+			"Bengali_Meaning": "তুমি (স্ত্রী) বসো না",
+			"Arabic_Term": "لَا تَجْلِسِيْ",
+			"Grammatical_Context": "واحد مؤনث حاضر"
+		},
+		{
+			"Verb_Context": "Imperative",
+			"Bengali_Meaning": "তুমি (পুং) পড়ো",
+			"Arabic_Term": "إِقْرَأْ",
+			"Grammatical_Context": "واحد مذكّر حاضر"
+		},
+		{
+			"Verb_Context": "Imperative",
+			"Bengali_Meaning": "তুমি (স্ত্রী) পড়ো",
+			"Arabic_Term": "إِقْرَئِيْ",
+			"Grammatical_Context": "واحد مؤনث حاضر"
+		},
+		{
+			"Verb_Context": "Negative Imperative",
+			"Bengali_Meaning": "তুমি (পুং) পড়ো না",
+			"Arabic_Term": "لَا تَقْرَأْ",
+			"Grammatical_Context": "واحد مذكّر حاضر"
+		},
+		{
+			"Verb_Context": "Negative Imperative",
+			"Bengali_Meaning": "তুমি (স্ত্রী) পড়ো না",
+			"Arabic_Term": "লَا تَقْرَئِيْ",
+			"Grammatical_Context": "واحد مؤনث حاضر"
+		},
+		{
+			"Verb_Context": "Imperative",
+			"Bengali_Meaning": "তুমি (পুং) লিখো",
+			"Arabic_Term": "أُكْتُبْ",
+			"Grammatical_Context": "واحد مذكّر حاضر"
+		},
+		{
+			"Verb_Context": "Imperative",
+			"Bengali_Meaning": "তুমি (স্ত্রী) লিখো",
+			"Arabic_Term": "أُكْتُبِيْ",
+			"Grammatical_Context": "واحد مؤنث حاضر"
+		},
+		{
+			"Verb_Context": "Negative Imperative",
+			"Bengali_Meaning": "তুমি (পুং) লিখো না",
+			"Arabic_Term": "لَا تَكْتُبْ",
+			"Grammatical_Context": "واحد مذكّر حاضر"
+		},
+		{
+			"Verb_Context": "Negative Imperative",
+			"Bengali_Meaning": "তুমি (স্ত্রী) লিখো না",
+			"Arabic_Term": "لَا تَكْتُبِيْ",
+			"Grammatical_Context": "واحد مؤنث حاضر"
+		},
+		{
+			"Verb_Context": "Imperative",
+			"Bengali_Meaning": "তুমি (পুং) ফিরো",
+			"Arabic_Term": "إِرْجِعْ",
+			"Grammatical_Context": "واحد مذكّر حاضر"
+		},
+		{
+			"Verb_Context": "Imperative",
+			"Bengali_Meaning": "তুমি (স্ত্রী) ফিরো",
+			"Arabic_Term": "إِرْجِعِيْ",
+			"Grammatical_Context": "واحد مؤنث حاضر"
+		},
+		{
+			"Verb_Context": "Negative Imperative",
+			"Bengali_Meaning": "তুমি (পুং) ফিরো না",
+			"Arabic_Term": "لَا تَرْجِعْ",
+			"Grammatical_Context": "واحد مذكّر حاضر"
+		},
+		{
+			"Verb_Context": "Negative Imperative",
+			"Bengali_Meaning": "তুমি (স্ত্রী) ফিরো না",
+			"Arabic_Term": "لَا تَرْجِعِيْ",
+			"Grammatical_Context": "واحد مؤنث حاضر"
+		},
+		{
+			"Verb_Context": "Imperative",
+			"Bengali_Meaning": "তুমি (পুং) খেলো",
+			"Arabic_Term": "إِلْعَبْ",
+			"Grammatical_Context": "واحد مذكّر حاضر"
+		},
+		{
+			"Verb_Context": "Imperative",
+			"Bengali_Meaning": "তুমি (স্ত্রী) খেলো",
+			"Arabic_Term": "إِلْعَبِيْ",
+			"Grammatical_Context": "واحد مؤنث حاضر"
+		},
+		{
+			"Verb_Context": "Negative Imperative",
+			"Bengali_Meaning": "তুমি (পুং) খেলো না",
+			"Arabic_Term": "لَا تَلْعَبْ",
+			"Grammatical_Context": "واحد مذكّر حاضر"
+		},
+		{
+			"Verb_Context": "Negative Imperative",
+			"Bengali_Meaning": "তুমি (স্ত্রী) খেলো না",
+			"Arabic_Term": "لَا تَلْعَبِيْ",
+			"Grammatical_Context": "واحد مؤنث حاضر"
+		}
+	],
+	"Module 14": [
+		{
+			"Bengali_Meaning": "গিলাফ, প্রচ্ছদ",
+			"Arabic_Term": "غِلَافٌ"
+		},
+		{
+			"Bengali_Meaning": "খাদেম, সেবক",
+			"Arabic_Term": "خَادِمٌ"
+		},
+		{
+			"Bengali_Meaning": "বাদশা",
+			"Arabic_Term": "مَلِكٌ"
+		},
+		{
+			"Bengali_Meaning": "আরামদায়ক",
+			"Arabic_Term": "مَرِيحٌ"
+		},
+		{
+			"Bengali_Meaning": "ছায়া",
+			"Arabic_Term": "ظِلٌّ"
+		},
+		{
+			"Bengali_Meaning": "আরাম",
+			"Arabic_Term": "رَاحَةٌ"
+		},
+		{
+			"Bengali_Meaning": "ছবি",
+			"Arabic_Term": "صُورَةٌ"
+		},
+		{
+			"Bengali_Meaning": "হাদিয়া",
+			"Arabic_Term": "هَدِيَّةٌ"
+		},
+		{
+			"Bengali_Meaning": "পরিচালক",
+			"Arabic_Term": "مُدِيرٌ"
+		},
+		{
+			"Bengali_Meaning": "আশ্চর্যজনক",
+			"Arabic_Term": "عَجِيبٌ"
+		},
+		{
+			"Bengali_Meaning": "স্বচ্ছ",
+			"Arabic_Term": "صَافٍ"
+		},
+		{
+			"Bengali_Meaning": "নোংরা",
+			"Arabic_Term": "قَذِرٌ"
+		},
+		{
+			"Bengali_Meaning": "কাছে",
+			"Arabic_Term": "قَرِيبٌ"
+		},
+		{
+			"Bengali_Meaning": "দূরে",
+			"Arabic_Term": "بَعِيدٌ"
+		},
+		{
+			"Bengali_Meaning": "মসজিদ",
+			"Arabic_Term": "مَسْجِدٌ"
+		},
+		{
+			"Bengali_Meaning": "জায়নামাজ",
+			"Arabic_Term": "سَجَّادَةٌ"
+		},
+		{
+			"Bengali_Meaning": "থেকে, হতে",
+			"Arabic_Term": "مِنْ"
+		},
+		{
+			"Bengali_Meaning": "দিকে, পর্যন্ত",
+			"Arabic_Term": "إِلَى"
+		},
+		{
+			"Bengali_Meaning": "উপরে",
+			"Arabic_Term": "عَلَى"
+		},
+		{
+			"Bengali_Meaning": "দিয়ে, দ্বারা, মাধ্যমে",
+			"Arabic_Term": "بِ"
+		},
+		{
+			"Bengali_Meaning": "বান্দা, গোলাম",
+			"Arabic_Term": "عَبْدٌ"
+		},
+		{
+			"Bengali_Meaning": "খেলার মাঠ",
+			"Arabic_Term": "مَلْعَبٌ"
+		},
+		{
+			"Bengali_Meaning": "ঘর, বাড়ি",
+			"Arabic_Term": "مَنْزِلٌ"
+		},
+		{
+			"Bengali_Meaning": "হোম ওয়ার্ক",
+			"Arabic_Term": "وَاجِبُ الْمَنْزِلِ"
+		},
+		{
+			"Bengali_Meaning": "এখানে",
+			"Arabic_Term": "هُنَا"
+		},
+		{
+			"Bengali_Meaning": "সেখানে",
+			"Arabic_Term": "هُنَاكَ"
+		},
+		{
+			"Bengali_Meaning": "আগে",
+			"Arabic_Term": "قَبْلُ"
+		},
+		{
+			"Bengali_Meaning": "পরে",
+			"Arabic_Term": "بَعْدُ"
+		},
+		{
+			"Bengali_Meaning": "আজ",
+			"Arabic_Term": "اَلْيَوْمُ"
+		},
+		{
+			"Bengali_Meaning": "এখন",
+			"Arabic_Term": "اَلْآنَ"
+		},
+		{
+			"Bengali_Meaning": "সকালে",
+			"Arabic_Term": "صَبَاحًا"
+		},
+		{
+			"Bengali_Meaning": "সন্ধ্যায়",
+			"Arabic_Term": "مَسَاءً"
+		},
+		{
+			"Bengali_Meaning": "আগামীকাল",
+			"Arabic_Term": "غَدًا"
+		},
+		{
+			"Bengali_Meaning": "সবসময়",
+			"Arabic_Term": "أَبَدًا"
+		},
+		{
+			"Bengali_Meaning": "কখন",
+			"Arabic_Term": "مَتَى"
+		},
+		{
+			"Bengali_Meaning": "ভালোবাসা",
+			"Arabic_Term": "مَحَبَّةٌ"
+		}
+	],
+	"Module 15": [
+		{
+			"Bengali_Meaning": "অত্যাচারিত",
+			"Arabic_Term": "مَظْلُومٌ"
+		},
+		{
+			"Bengali_Meaning": "জালেম",
+			"Arabic_Term": "ظَالِمٌ"
+		},
+		{
+			"Bengali_Meaning": "বাসিন্দা",
+			"Arabic_Term": "سَاكِنٌ"
+		},
+		{
+			"Bengali_Meaning": "তিলাওয়াত",
+			"Arabic_Term": "تِلَاوَةٌ"
+		},
+		{
+			"Bengali_Meaning": "মূর্খ",
+			"Arabic_Term": "جَاهِلٌ"
+		},
+		{
+			"Bengali_Meaning": "খলীফা",
+			"Arabic_Term": "خَلِيفَةٌ"
+		},
+		{
+			"Bengali_Meaning": "তাওবা",
+			"Arabic_Term": "تَوْبَةٌ"
+		},
+		{
+			"Bengali_Meaning": "তাওবাকারী",
+			"Arabic_Term": "تَائِبٌ"
+		},
+		{
+			"Bengali_Meaning": "বুলবুলি",
+			"Arabic_Term": "بُلْبُلٌ"
+		},
+		{
+			"Bengali_Meaning": "চিড়িয়াখানা",
+			"Arabic_Term": "حَدِيقَةُ الْحَيَوَانِ"
+		},
+		{
+			"Bengali_Meaning": "ফ্রিজ",
+			"Arabic_Term": "ثَلَّاجَةٌ"
+		},
+		{
+			"Bengali_Meaning": "টেলিফোন",
+			"Arabic_Term": "هَاتِفٌ"
+		},
+		{
+			"Bengali_Meaning": "হিজর",
+			"Arabic_Term": "مُفْتَرَسٌ"
+		},
+		{
+			"Bengali_Meaning": "সৈনিক",
+			"Arabic_Term": "جُنْدِيٌّ"
+		},
+		{
+			"Bengali_Meaning": "মাকড়সা",
+			"Arabic_Term": "عَنْكَبُوتٌ"
+		},
+		{
+			"Bengali_Meaning": "পাঁচিল",
+			"Arabic_Term": "قَدْرٌ (موت)"
+		},
+		{
+			"Bengali_Meaning": "চুল",
+			"Arabic_Term": "شَعْرٌ"
+		},
+		{
+			"Bengali_Meaning": "রং",
+			"Arabic_Term": "لَوْنٌ"
+		},
+		{
+			"Bengali_Meaning": "নাক",
+			"Arabic_Term": "أَنْفٌ"
+		},
+		{
+			"Bengali_Meaning": "চেহারা",
+			"Arabic_Term": "وَجْهٌ"
+		},
+		{
+			"Bengali_Meaning": "গাল",
+			"Arabic_Term": "خَدٌّ"
+		},
+		{
+			"Bengali_Meaning": "চোখ",
+			"Arabic_Term": "عَيْنٌ"
+		},
+		{
+			"Bengali_Meaning": "পিঠ",
+			"Arabic_Term": "ظَهْرٌ"
+		},
+		{
+			"Bengali_Meaning": "পেট",
+			"Arabic_Term": "بَطْنٌ"
+		},
+		{
+			"Bengali_Meaning": "সহপাঠী",
+			"Arabic_Term": "زَمِيلٌ"
+		},
+		{
+			"Bengali_Meaning": "গন্ধ, ঘ্রাণ",
+			"Arabic_Term": "رَائِحَةٌ"
+		},
+		{
+			"Bengali_Meaning": "আজানখানা",
+			"Arabic_Term": "مِئْذَنَةٌ"
+		},
+		{
+			"Bengali_Meaning": "সাথে",
+			"Arabic_Term": "مَعَ"
+		},
+		{
+			"Bengali_Meaning": "ছাদ",
+			"Arabic_Term": "سَقْفٌ"
+		},
+		{
+			"Bengali_Meaning": "লাইব্রেরি",
+			"Arabic_Term": "مَكْتَبَةٌ"
+		},
+		{
+			"Bengali_Meaning": "অকল্যাণকর",
+			"Arabic_Term": "شَرٌّ"
+		},
+		{
+			"Bengali_Meaning": "কল্যাণকর",
+			"Arabic_Term": "خَيْرٌ"
+		},
+		{
+			"Bengali_Meaning": "এরপর, অত:পর",
+			"Arabic_Term": "ثُمَّ"
+		},
+		{
+			"Bengali_Meaning": "ইঁদুর",
+			"Arabic_Term": "فَارٌ"
+		},
+		{
+			"Bengali_Meaning": "সাগর",
+			"Arabic_Term": "بَحْرٌ"
+		},
+		{
+			"Bengali_Meaning": "নদী",
+			"Arabic_Term": "نَهْرٌ"
+		},
+		{
+			"Bengali_Meaning": "নৌকা",
+			"Arabic_Term": "زَوْرَقٌ"
+		},
+		{
+			"Bengali_Meaning": "পুল, ব্রিজ",
+			"Arabic_Term": "جِسْرٌ"
+		},
+		{
+			"Bengali_Meaning": "শ্রেণিকক্ষ",
+			"Arabic_Term": "فَصْلٌ"
+		},
+		{
+			"Bengali_Meaning": "শ্রেণি",
+			"Arabic_Term": "صَفٌّ"
+		},
+		{
+			"Bengali_Meaning": "জাহান্নাম",
+			"Arabic_Term": "اَلنَّارُ"
+		},
+		{
+			"Bengali_Meaning": "আগুন",
+			"Arabic_Term": "نَارٌ"
+		},
+		{
+			"Bengali_Meaning": "মাকবূল, গ্রহণযোগ্য",
+			"Arabic_Term": "مَقْبُولٌ"
+		},
+		{
+			"Bengali_Meaning": "অফিস, টেবিল",
+			"Arabic_Term": "مَكْتَبٌ"
+		},
+		{
+			"Bengali_Meaning": "শিং",
+			"Arabic_Term": "قَرْنٌ"
+		},
+		{
+			"Bengali_Meaning": "চামড়া",
+			"Arabic_Term": "جِلْدٌ"
+		},
+		{
+			"Bengali_Meaning": "লেজ",
+			"Arabic_Term": "ذَيْلٌ"
+		},
+		{
+			"Bengali_Meaning": "ওলান",
+			"Arabic_Term": "ضَرْعٌ"
+		},
+		{
+			"Bengali_Meaning": "শক্তিশালী",
+			"Arabic_Term": "قَوِيٌّ"
+		},
+		{
+			"Bengali_Meaning": "শক্তি",
+			"Arabic_Term": "قُوَّةٌ"
+		},
+		{
+			"Bengali_Meaning": "সততা",
+			"Arabic_Term": "صَلَاحٌ"
+		},
+		{
+			"Bengali_Meaning": "সৎ",
+			"Arabic_Term": "صَالِحٌ"
+		},
+		{
+			"Bengali_Meaning": "মূর্তি",
+			"Arabic_Term": "صَنَمٌ"
+		},
+		{
+			"Bengali_Meaning": "কয়লা",
+			"Arabic_Term": "فَحْمٌ"
+		},
+		{
+			"Bengali_Meaning": "কুয়া",
+			"Arabic_Term": "بِئْرٌ"
+		},
+		{
+			"Bengali_Meaning": "পুকুর",
+			"Arabic_Term": "غَدِيرٌ"
+		},
+		{
+			"Bengali_Meaning": "কামার",
+			"Arabic_Term": "حَدَّادٌ"
+		},
+		{
+			"Bengali_Meaning": "কাঠমিস্ত্রি",
+			"Arabic_Term": "نَجَّارٌ"
+		},
+		{
+			"Bengali_Meaning": "অর্ধেক",
+			"Arabic_Term": "نِصْفٌ"
+		},
+		{
+			"Bengali_Meaning": "ধোঁয়া",
+			"Arabic_Term": "دُخَانٌ"
+		},
+		{
+			"Bengali_Meaning": "স্বাদ",
+			"Arabic_Term": "لَذَّةٌ"
+		},
+		{
+			"Bengali_Meaning": "সৌন্দর্য",
+			"Arabic_Term": "جَمَالٌ"
+		},
+		{
+			"Bengali_Meaning": "ঘন্টা, বেল",
+			"Arabic_Term": "جَرَسٌ"
+		},
+		{
+			"Bengali_Meaning": "বসতি",
+			"Arabic_Term": "سُكْنَى"
+		},
+		{
+			"Bengali_Meaning": "আশেক",
+			"Arabic_Term": "عَاشِقٌ"
+		},
+		{
+			"Bengali_Meaning": "প্রাঙ্গন",
+			"Arabic_Term": "سَاحَةٌ"
+		},
+		{
+			"Bengali_Meaning": "সুই",
+			"Arabic_Term": "إِبْرَةٌ"
+		},
+		{
+			"Bengali_Meaning": "সুতো",
+			"Arabic_Term": "خَيْطٌ"
+		}
+	],
+	"Module 16": [
+		{
+			"Bengali_Meaning": "চাটায়",
+			"Arabic_Term": "حَصِيرٌ"
+		},
+		{
+			"Bengali_Meaning": "আসন",
+			"Arabic_Term": "مَقْعَدٌ"
+		},
+		{
+			"Bengali_Meaning": "রাস্তা, পথ",
+			"Arabic_Term": "سَبِيلٌ"
+		},
+		{
+			"Bengali_Meaning": "ঈদ",
+			"Arabic_Term": "عِيدٌ"
+		},
+		{
+			"Bengali_Meaning": "খাঁচা",
+			"Arabic_Term": "قَفَصٌ"
+		},
+		{
+			"Bengali_Meaning": "চক",
+			"Arabic_Term": "طَبْشُورَةٌ"
+		},
+		{
+			"Bengali_Meaning": "পরশুদিন",
+			"Arabic_Term": "بَعْدَ غَدٍ"
+		},
+		{
+			"Bengali_Meaning": "ঘুম",
+			"Arabic_Term": "نَوْمٌ"
+		},
+		{
+			"Bengali_Meaning": "ডান হাত, ডান দিক",
+			"Arabic_Term": "يَمِينٌ"
+		},
+		{
+			"Bengali_Meaning": "বাম হাত, বাম দিক",
+			"Arabic_Term": "شِمَالٌ"
+		},
+		{
+			"Bengali_Meaning": "নিকৃষ্ট",
+			"Arabic_Term": "رَدِيءٌ"
+		},
+		{
+			"Bengali_Meaning": "আলো",
+			"Arabic_Term": "ضَوْءٌ"
+		},
+		{
+			"Bengali_Meaning": "শ্রমিক",
+			"Arabic_Term": "عَامِلٌ"
+		},
+		{
+			"Bengali_Meaning": "কারখানা",
+			"Arabic_Term": "مَصْنَعٌ"
+		},
+		{
+			"Bengali_Meaning": "হাওর, পাহাড়",
+			"Arabic_Term": "نَوْرٌ"
+		},
+		{
+			"Bengali_Meaning": "কপটতা",
+			"Arabic_Term": "نِفَاقٌ"
+		},
+		{
+			"Bengali_Meaning": "যাদু",
+			"Arabic_Term": "سُورٌ"
+		},
+		{
+			"Bengali_Meaning": "ইঁদুর",
+			"Arabic_Term": "مَظْلُومٌ"
+		}
+	],
+	"Module 17": [
+		{
+			"Bengali_Meaning": "সাহসী",
+			"Arabic_Term": "شُجَاعٌ"
+		},
+		{
+			"Bengali_Meaning": "সাহসিকতা",
+			"Arabic_Term": "شَجَاعَةٌ"
+		},
+		{
+			"Bengali_Meaning": "অভ্যাস",
+			"Arabic_Term": "عَادَةٌ"
+		},
+		{
+			"Bengali_Meaning": "গীবত",
+			"Arabic_Term": "غِيبَةٌ"
+		},
+		{
+			"Bengali_Meaning": "মিয়ার",
+			"Arabic_Term": "مِنْبَرٌ"
+		},
+		{
+			"Bengali_Meaning": "অপরাধ",
+			"Arabic_Term": "ذَنْبٌ"
+		},
+		{
+			"Bengali_Meaning": "খাম",
+			"Arabic_Term": "ظَرْفٌ"
+		},
+		{
+			"Bengali_Meaning": "কাপড়",
+			"Arabic_Term": "ثَوْبٌ"
+		},
+		{
+			"Bengali_Meaning": "আরবি",
+			"Arabic_Term": "عَرَبِيٌّ"
+		},
+		{
+			"Bengali_Meaning": "বাঙ্গালি",
+			"Arabic_Term": "بَنْغَالِيٌّ"
+		},
+		{
+			"Bengali_Meaning": "বন্ধু",
+			"Arabic_Term": "صَدِيقٌ"
+		},
+		{
+			"Bengali_Meaning": "বন্ধুত্ব",
+			"Arabic_Term": "صَدَاقَةٌ"
+		},
+		{
+			"Bengali_Meaning": "গোনাহগার",
+			"Arabic_Term": "فَاجِرٌ"
+		},
+		{
+			"Bengali_Meaning": "কার্ড",
+			"Arabic_Term": "بِطَاقَةٌ"
+		},
+		{
+			"Bengali_Meaning": "মেরাজ",
+			"Arabic_Term": "مِعْرَاجٌ"
+		},
+		{
+			"Bengali_Meaning": "চিঠি",
+			"Arabic_Term": "رِسَالَةٌ"
+		},
+		{
+			"Bengali_Meaning": "অপেক্ষিতুষ্টি",
+			"Arabic_Term": "قَنَاعَةٌ"
+		},
+		{
+			"Bengali_Meaning": "অপেক্ষিতুষ্ট",
+			"Arabic_Term": "قَانِعٌ"
+		},
+		{
+			"Bengali_Meaning": "জুমুআ",
+			"Arabic_Term": "جُمُعَةٌ"
+		},
+		{
+			"Bengali_Meaning": "খতীব, বক্তা",
+			"Arabic_Term": "خَطِيبٌ"
+		},
+		{
+			"Bengali_Meaning": "জমজম",
+			"Arabic_Term": "زَمْزَمٌ"
+		},
+		{
+			"Bengali_Meaning": "মক্কা",
+			"Arabic_Term": "مَكَّةُ"
+		},
+		{
+			"Bengali_Meaning": "কৃতজ্ঞতা",
+			"Arabic_Term": "شُكْرٌ"
+		},
+		{
+			"Bengali_Meaning": "কৃতজ্ঞ",
+			"Arabic_Term": "شَاكِرٌ"
+		},
+		{
+			"Bengali_Meaning": "অভিশাপ",
+			"Arabic_Term": "لَعْنَةٌ"
+		},
+		{
+			"Bengali_Meaning": "সম্পদ",
+			"Arabic_Term": "مَالٌ"
+		},
+		{
+			"Bengali_Meaning": "দাসী, বাদী",
+			"Arabic_Term": "أَمَةٌ"
+		},
+		{
+			"Bengali_Meaning": "দাস, বান্দা",
+			"Arabic_Term": "عَبْدٌ"
+		}
+	],
+	"Module 18": [
+		{
+			"Bengali_Meaning": "লোহা",
+			"Arabic_Term": "حَدِيدٌ"
+		},
+		{
+			"Bengali_Meaning": "তামা",
+			"Arabic_Term": "نُحَاسٌ"
+		},
+		{
+			"Bengali_Meaning": "আলসতা",
+			"Arabic_Term": "كَسَلٌ"
+		},
+		{
+			"Bengali_Meaning": "আলস",
+			"Arabic_Term": "كَسْلَانُ"
+		},
+		{
+			"Bengali_Meaning": "১ম",
+			"Arabic_Term": "أَوَّلُ - أُولَى"
+		},
+		{
+			"Bengali_Meaning": "২য়",
+			"Arabic_Term": "ثَانِ - ثَانِيَةٌ"
+		},
+		{
+			"Bengali_Meaning": "৩য়",
+			"Arabic_Term": "ثَالِثٌ"
+		},
+		{
+			"Bengali_Meaning": "৪র্থ",
+			"Arabic_Term": "رَابِعٌ"
+		},
+		{
+			"Bengali_Meaning": "৫ম",
+			"Arabic_Term": "خَامِسٌ"
+		},
+		{
+			"Bengali_Meaning": "৬ষ্ঠ",
+			"Arabic_Term": "سَادِسٌ"
+		},
+		{
+			"Bengali_Meaning": "৭ম",
+			"Arabic_Term": "سَابِعٌ"
+		},
+		{
+			"Bengali_Meaning": "৮ম",
+			"Arabic_Term": "ثَامِنٌ"
+		},
+		{
+			"Bengali_Meaning": "৯ম",
+			"Arabic_Term": "تَاسِعٌ"
+		},
+		{
+			"Bengali_Meaning": "১০ম",
+			"Arabic_Term": "عَاشِرٌ"
+		},
+		{
+			"Bengali_Meaning": "কলা",
+			"Arabic_Term": "مَوْزٌ"
+		},
+		{
+			"Bengali_Meaning": "হাতুড়ি",
+			"Arabic_Term": "مِطْرَقَةٌ"
+		},
+		{
+			"Bengali_Meaning": "আঙ্গুর",
+			"Arabic_Term": "عِنَبٌ"
+		},
+		{
+			"Bengali_Meaning": "রস, জুস",
+			"Arabic_Term": "عَصِيرٌ"
+		},
+		{
+			"Bengali_Meaning": "দরিদ্র",
+			"Arabic_Term": "فَقِيرٌ"
+		},
+		{
+			"Bengali_Meaning": "দারিদ্র",
+			"Arabic_Term": "فَقْرٌ"
+		},
+		{
+			"Bengali_Meaning": "স্বচ্ছল",
+			"Arabic_Term": "غَنِيٌّ"
+		},
+		{
+			"Bengali_Meaning": "স্বচ্ছলতা",
+			"Arabic_Term": "غِنَاءٌ"
+		},
+		{
+			"Bengali_Meaning": "অশ্রু",
+			"Arabic_Term": "دَمْعٌ"
+		},
+		{
+			"Bengali_Meaning": "রক্ত",
+			"Arabic_Term": "دَمٌ"
+		},
+		{
+			"Bengali_Meaning": "কাউসরো",
+			"Arabic_Term": "قَاهِرٌ"
+		},
+		{
+			"Bengali_Meaning": "বাগদাদ",
+			"Arabic_Term": "بَغْدَادُ"
+		},
+		{
+			"Bengali_Meaning": "আকসা",
+			"Arabic_Term": "أَقْصَى"
+		},
+		{
+			"Bengali_Meaning": "ফিলিস্তিন",
+			"Arabic_Term": "فِلِسْطِينُ"
+		}
+	],
+	"Module 19": [
+		{
+			"Bengali_Meaning": "কাশ্মীর",
+			"Arabic_Term": "كَشْمِيرُ"
+		},
+		{
+			"Bengali_Meaning": "আফগানিস্থান",
+			"Arabic_Term": "أَفْغَانِسْتَانُ"
+		},
+		{
+			"Bengali_Meaning": "পাকিস্তান",
+			"Arabic_Term": "بَاكِسْتَانُ"
+		},
+		{
+			"Bengali_Meaning": "জাপান",
+			"Arabic_Term": "يَابَانُ"
+		},
+		{
+			"Bengali_Meaning": "মায়ানমার",
+			"Arabic_Term": "بُوْرْمَا"
+		},
+		{
+			"Bengali_Meaning": "ভারত",
+			"Arabic_Term": "اَلْهِنْدُ"
+		},
+		{
+			"Bengali_Meaning": "ঘোড়া",
+			"Arabic_Term": "حِصَانٌ"
+		},
+		{
+			"Bengali_Meaning": "বিড়াল",
+			"Arabic_Term": "قِطٌّ"
+		},
+		{
+			"Bengali_Meaning": "তারকা",
+			"Arabic_Term": "نَجْمٌ"
+		},
+		{
+			"Bengali_Meaning": "শিক্ষক",
+			"Arabic_Term": "مُدَرِّسٌ"
+		},
+		{
+			"Bengali_Meaning": "নোটবুক",
+			"Arabic_Term": "دَفْتَرٌ"
+		},
+		{
+			"Bengali_Meaning": "পাথর",
+			"Arabic_Term": "حَجَرٌ"
+		},
+		{
+			"Bengali_Meaning": "দন্ডায়মান",
+			"Arabic_Term": "وَاقِفٌ"
+		},
+		{
+			"Bengali_Meaning": "উপবিষ্ট",
+			"Arabic_Term": "جَالِسٌ"
+		},
+		{
+			"Bengali_Meaning": "হালকা",
+			"Arabic_Term": "خَفِيفٌ"
+		},
+		{
+			"Bengali_Meaning": "ভারি",
+			"Arabic_Term": "ثَقِيلٌ"
+		},
+		{
+			"Bengali_Meaning": "সাবান",
+			"Arabic_Term": "صَابُونٌ"
+		},
+		{
+			"Bengali_Meaning": "সকালের নাস্তা, দুপুরের খাবার",
+			"Arabic_Term": "غَدَاءٌ"
+		},
+		{
+			"Bengali_Meaning": "নখ",
+			"Arabic_Term": "ظُفُرٌ"
+		},
+		{
+			"Bengali_Meaning": "আঙ্গুল",
+			"Arabic_Term": "إِصْبَعٌ"
+		},
+		{
+			"Bengali_Meaning": "ওয়াশরুম",
+			"Arabic_Term": "مِرْحَاضٌ"
+		},
+		{
+			"Bengali_Meaning": "বাথরুম",
+			"Arabic_Term": "حَمَّامٌ"
+		},
+		{
+			"Bengali_Meaning": "টিন",
+			"Arabic_Term": "اَلصِّينُ"
+		},
+		{
+			"Bengali_Meaning": "ফিলিপাইন",
+			"Arabic_Term": "اَلْفِلِيْبِيْنُ"
+		},
+		{
+			"Bengali_Meaning": "প্রকৌশলী",
+			"Arabic_Term": "مُهَنْدِسٌ"
+		},
+		{
+			"Bengali_Meaning": "বিশ্ববিদ্যালয়",
+			"Arabic_Term": "جَامِعَةٌ"
+		},
+		{
+			"Bengali_Meaning": "মহাসড়ক",
+			"Arabic_Term": "شَارِعٌ"
+		},
+		{
+			"Bengali_Meaning": "ছেলেসন্তান",
+			"Arabic_Term": "اِبْنٌ"
+		}
+	],
+	"Module 20": [
+		{
+			"Bengali_Meaning": "অধ্যাপক",
+			"Arabic_Term": "أُسْتَاذٌ"
+		},
+		{
+			"Bengali_Meaning": "ডক্টর (পিএইচডি)",
+			"Arabic_Term": "دُكْتُوْرٌ"
+		},
+		{
+			"Bengali_Meaning": "চামচ",
+			"Arabic_Term": "مِلْعَقَةٌ"
+		},
+		{
+			"Bengali_Meaning": "ইস্ত্রি",
+			"Arabic_Term": "مِكْوَاةٌ"
+		},
+		{
+			"Bengali_Meaning": "চা",
+			"Arabic_Term": "اَلشَّايُ"
+		},
+		{
+			"Bengali_Meaning": "কফি",
+			"Arabic_Term": "قَهْوَةٌ"
+		},
+		{
+			"Bengali_Meaning": "নার্স",
+			"Arabic_Term": "مُمَرِّضَةٌ"
+		},
+		{
+			"Bengali_Meaning": "হাঁস",
+			"Arabic_Term": "بَطَّةٌ"
+		},
+		{
+			"Bengali_Meaning": "ইংল্যান্ড",
+			"Arabic_Term": "إِنْكِلْتَرَا"
+		},
+		{
+			"Bengali_Meaning": "আমেরিকা",
+			"Arabic_Term": "أَمْرِيكَا"
+		},
+		{
+			"Bengali_Meaning": "ফ্রান্স",
+			"Arabic_Term": "فَرَنْسَا"
+		},
+		{
+			"Bengali_Meaning": "জার্মানি",
+			"Arabic_Term": "أَلْمَانِيَا"
+		},
+		{
+			"Bengali_Meaning": "সুইজারল্যান্ড",
+			"Arabic_Term": "سُوِيْسْرَا"
+		},
+		{
+			"Bengali_Meaning": "ইন্দোনেশিয়া",
+			"Arabic_Term": "إِنْدُوْنِيسِيَا"
+		},
+		{
+			"Bengali_Meaning": "ইংরেজি",
+			"Arabic_Term": "اَلْإِنْكِلِيزِيَّةُ"
+		},
+		{
+			"Bengali_Meaning": "উর্দু",
+			"Arabic_Term": "اَلْأَرْدِيَّةُ"
+		},
+		{
+			"Bengali_Meaning": "রাগান্বিত",
+			"Arabic_Term": "غَضْبَانُ"
+		},
+		{
+			"Bengali_Meaning": "কুয়েত",
+			"Arabic_Term": "اَلْكُوَيْتُ"
+		},
+		{
+			"Bengali_Meaning": "ক্ষুধার্ত",
+			"Arabic_Term": "جَوْعَانُ"
+		},
+		{
+			"Bengali_Meaning": "পিপাসার্ত",
+			"Arabic_Term": "عَطْشَانُ"
+		},
+		{
+			"Bengali_Meaning": "ক্লিনিক",
+			"Arabic_Term": "مُسْتَوْصَفٌ"
+		},
+		{
+			"Bengali_Meaning": "পরিপূর্ণ",
+			"Arabic_Term": "مَلْآنُ"
+		},
+		{
+			"Bengali_Meaning": "মন্ত্রী",
+			"Arabic_Term": "وَزِيرٌ"
+		},
+		{
+			"Bengali_Meaning": "উচ্চ বিদ্যালয়",
+			"Arabic_Term": "مَدْرَسَةٌ ثَانَوِيَّةٌ"
+		},
+		{
+			"Bengali_Meaning": "চাকু",
+			"Arabic_Term": "سِكِّينٌ"
+		},
+		{
+			"Bengali_Meaning": "ধারালো",
+			"Arabic_Term": "حَادٌّ"
+		},
+		{
+			"Bengali_Meaning": "গুণ, সিফাত",
+			"Arabic_Term": "نَعْتٌ"
+		},
+		{
+			"Bengali_Meaning": "গুণান্বিত, মাওসূফ",
+			"Arabic_Term": "مَنْعُوتٌ"
+		},
+		{
+			"Bengali_Meaning": "প্রসিদ্ধ",
+			"Arabic_Term": "شَهِيرٌ"
+		},
+		{
+			"Bengali_Meaning": "মেহরাব",
+			"Arabic_Term": "مِحْرَابٌ"
+		}
+	],
+	"Module 21": [
+		{
+			"Bengali_Meaning": "রিয়াদ",
+			"Arabic_Term": "اَلرِّيَاضُ"
+		},
+		{
+			"Bengali_Meaning": "ইরাক",
+			"Arabic_Term": "اَلْعِرَاقُ"
+		},
+		{
+			"Bengali_Meaning": "মালয়েশিয়া",
+			"Arabic_Term": "مَالِيزِيَا"
+		},
+		{
+			"Bengali_Meaning": "তায়েফ",
+			"Arabic_Term": "اَلطَّائِفُ"
+		},
+		{
+			"Bengali_Meaning": "যুবতী",
+			"Arabic_Term": "فَتَاةٌ"
+		},
+		{
+			"Bengali_Meaning": "যুবক",
+			"Arabic_Term": "اَلْفَتَى - اَلْفَتَى"
+		},
+		{
+			"Bengali_Meaning": "মেন্টর, প্রশিক্ষক",
+			"Arabic_Term": "مُوَجَّهٌ"
+		},
+		{
+			"Bengali_Meaning": "বৃদ্ধ, সম্মানিত, শুরু",
+			"Arabic_Term": "شَيْخٌ"
+		},
+		{
+			"Bengali_Meaning": "প্রাথমিক বিদ্যালয়",
+			"Arabic_Term": "مَدْرَسَةٌ اِبْتِدَائِيَّةٌ"
+		},
+		{
+			"Bengali_Meaning": "মাধ্যমিক বিদ্যালয়",
+			"Arabic_Term": "مَدْرَسَةٌ مُتَوَسِّطَةٌ"
+		},
+		{
+			"Bengali_Meaning": "ক্ষেত",
+			"Arabic_Term": "حَقْلٌ"
+		},
+		{
+			"Bengali_Meaning": "রেস্টুরেন্ট",
+			"Arabic_Term": "مَطْعَمٌ"
+		},
+		{
+			"Bengali_Meaning": "হাজী",
+			"Arabic_Term": "حَاجٌّ"
+		},
+		{
+			"Bengali_Meaning": "তুরস্ক",
+			"Arabic_Term": "تُرْكِيَّا"
+		},
+		{
+			"Bengali_Meaning": "অবস্থা",
+			"Arabic_Term": "حَالٌ"
+		},
+		{
+			"Bengali_Meaning": "ছাই",
+			"Arabic_Term": "رَمَادٌ"
+		},
+		{
+			"Bengali_Meaning": "কাছে",
+			"Arabic_Term": "مِنْفَارٌ"
+		},
+		{
+			"Bengali_Meaning": "কিয়ামত",
+			"Arabic_Term": "قِيَامَةٌ"
+		},
+		{
+			"Bengali_Meaning": "দক্ষতা",
+			"Arabic_Term": "مَهَارَةٌ"
+		},
+		{
+			"Bengali_Meaning": "দক্ষ",
+			"Arabic_Term": "مَاهِرٌ"
+		},
+		{
+			"Bengali_Meaning": "হজ",
+			"Arabic_Term": "حَجٌّ"
+		},
+		{
+			"Bengali_Meaning": "রোজা, সওম",
+			"Arabic_Term": "صَوْمٌ"
+		},
+		{
+			"Bengali_Meaning": "দল, জামাত",
+			"Arabic_Term": "جَمَاعَةٌ"
+		},
+		{
+			"Bengali_Meaning": "আবশ্যক, ওয়াজিব",
+			"Arabic_Term": "وَاجِبٌ"
+		},
+		{
+			"Bengali_Meaning": "উত্তমতা",
+			"Arabic_Term": "جَوْدَةٌ"
+		},
+		{
+			"Bengali_Meaning": "ভালো, উত্তম",
+			"Arabic_Term": "جَيِّدٌ"
+		}
+	],
+	"Module 22": [
+		{
+			"Bengali_Meaning": "সফর",
+			"Arabic_Term": "سَفَرٌ"
+		},
+		{
+			"Bengali_Meaning": "রিযিক",
+			"Arabic_Term": "رِزْقٌ"
+		},
+		{
+			"Bengali_Meaning": "কুমির",
+			"Arabic_Term": "تِمْسَاحٌ"
+		},
+		{
+			"Bengali_Meaning": "নিকৃষ্ট, খবিস",
+			"Arabic_Term": "خَبِيثٌ"
+		},
+		{
+			"Bengali_Meaning": "ঝোল",
+			"Arabic_Term": "مَرَقٌ"
+		},
+		{
+			"Bengali_Meaning": "কাঁচ",
+			"Arabic_Term": "زُجَاجٌ"
+		},
+		{
+			"Bengali_Meaning": "পরিচ্ছন্নতা",
+			"Arabic_Term": "نَظَافَةٌ"
+		},
+		{
+			"Bengali_Meaning": "পরিচ্ছন্ন",
+			"Arabic_Term": "نَظِيفٌ"
+		},
+		{
+			"Bengali_Meaning": "নিয়ত",
+			"Arabic_Term": "نِيَّةٌ"
+		},
+		{
+			"Bengali_Meaning": "জরুরী",
+			"Arabic_Term": "ضَرُورِيٌّ"
+		},
+		{
+			"Bengali_Meaning": "মেডিকেল কলেজ",
+			"Arabic_Term": "كُلِّيَّةُ الطِّبِّ"
+		},
+		{
+			"Bengali_Meaning": "কলেজ",
+			"Arabic_Term": "كُلِّيَّةٌ"
+		},
+		{
+			"Bengali_Meaning": "আদালত",
+			"Arabic_Term": "اَلْمَحْكَمَةُ"
+		},
+		{
+			"Bengali_Meaning": "ইঞ্জিনিয়ারিং কলেজ",
+			"Arabic_Term": "كُلِّيَّةُ الْهَنْدَسَةِ"
+		},
+		{
+			"Bengali_Meaning": "ইস্তাম্বুল",
+			"Arabic_Term": "إِسْطَنْبُولُ"
+		},
+		{
+			"Bengali_Meaning": "গ্রীস",
+			"Arabic_Term": "اَلْيُونَانُ"
+		},
+		{
+			"Bengali_Meaning": "প্যারিস",
+			"Arabic_Term": "بَارِيْسُ"
+		},
+		{
+			"Bengali_Meaning": "লন্ডন",
+			"Arabic_Term": "لَنْدَنُ"
+		},
+		{
+			"Bengali_Meaning": "বেলজিয়াম",
+			"Arabic_Term": "بَلْجِيكَا"
+		},
+		{
+			"Bengali_Meaning": "পরীক্ষা",
+			"Arabic_Term": "إِخْتِبَارٌ"
+		},
+		{
+			"Bengali_Meaning": "কোম্পানি পরিচালক",
+			"Arabic_Term": "مُدِيرُ الشَّرِكَةِ"
+		},
+		{
+			"Bengali_Meaning": "কোম্পানি",
+			"Arabic_Term": "شَرِكَةٌ"
+		},
+		{
+			"Bengali_Meaning": "দোকান",
+			"Arabic_Term": "مَتْجَرٌ"
+		},
+		{
+			"Bengali_Meaning": "ঢাকা",
+			"Arabic_Term": "عَجَلَةٌ"
+		},
+		{
+			"Bengali_Meaning": "মুসিবত",
+			"Arabic_Term": "مُصِيبَةٌ"
+		},
+		{
+			"Bengali_Meaning": "উত্তমতা",
+			"Arabic_Term": "جَوْدَةٌ"
+		},
+		{
+			"Bengali_Meaning": "সৌন্দর্য",
+			"Arabic_Term": "زِيْنَةٌ"
+		},
+		{
+			"Bengali_Meaning": "নীব",
+			"Arabic_Term": "رِيْسَةٌ"
+		},
+		{
+			"Bengali_Meaning": "বিনয়",
+			"Arabic_Term": "تَوَاضُعٌ"
+		},
+		{
+			"Bengali_Meaning": "বিশাল",
+			"Arabic_Term": "ضَخْمٌ"
+		},
+		{
+			"Bengali_Meaning": "ভীরুতা",
+			"Arabic_Term": "جُبْنٌ"
+		},
+		{
+			"Bengali_Meaning": "ভীরু",
+			"Arabic_Term": "جَبَانٌ"
+		},
+		{
+			"Bengali_Meaning": "দূরত্ব",
+			"Arabic_Term": "بُعْدٌ"
+		},
+		{
+			"Bengali_Meaning": "দূরবর্তী",
+			"Arabic_Term": "بَعِيدٌ"
+		},
+		{
+			"Bengali_Meaning": "নৈকট্য",
+			"Arabic_Term": "قُرْبٌ"
+		},
+		{
+			"Bengali_Meaning": "নিকটবর্তী",
+			"Arabic_Term": "قَرِيبٌ"
+		},
+		{
+			"Bengali_Meaning": "অপছন্দ",
+			"Arabic_Term": "كَرَاهَةٌ"
+		},
+		{
+			"Bengali_Meaning": "অপছন্দনীয়",
+			"Arabic_Term": "كَرِيهٌ"
+		},
+		{
+			"Bengali_Meaning": "সমাধান",
+			"Arabic_Term": "حَلٌّ"
+		},
+		{
+			"Bengali_Meaning": "ঘ্রাণ",
+			"Arabic_Term": "رَائِحَةٌ"
+		},
+		{
+			"Bengali_Meaning": "খাম",
+			"Arabic_Term": "ظَرْفٌ"
+		},
+		{
+			"Bengali_Meaning": "ভাষা",
+			"Arabic_Term": "لُغَةٌ"
+		},
+		{
+			"Bengali_Meaning": "লজ্জা",
+			"Arabic_Term": "حَيَاءٌ"
+		},
+		{
+			"Bengali_Meaning": "মিথ্যা",
+			"Arabic_Term": "كِذْبٌ, كَذَبٌ"
+		},
+		{
+			"Bengali_Meaning": "মেধা",
+			"Arabic_Term": "ذَكَاءٌ"
+		},
+		{
+			"Bengali_Meaning": "মেধাবী",
+			"Arabic_Term": "ذَكِيٌّ"
+		},
+		{
+			"Bengali_Meaning": "বুদ্ধিহীনতা",
+			"Arabic_Term": "غَبَاءٌ"
+		},
+		{
+			"Bengali_Meaning": "নির্বোধ",
+			"Arabic_Term": "غَبِيٌّ"
+		},
+		{
+			"Bengali_Meaning": "অভিশাপ",
+			"Arabic_Term": "لَعْنَةٌ"
+		},
+		{
+			"Bengali_Meaning": "অভিশপ্ত",
+			"Arabic_Term": "لَعِينٌ"
+		},
+		{
+			"Bengali_Meaning": "প্রবেশপত্র",
+			"Arabic_Term": "بِطَاقَةُ الدُّخُوْلِ"
+		},
+		{
+			"Bengali_Meaning": "কার্ড",
+			"Arabic_Term": "بِطَاقَةٌ"
+		},
+		{
+			"Bengali_Meaning": "চিঠি",
+			"Arabic_Term": "رِسَالَةٌ, خِطَابٌ"
+		},
+		{
+			"Bengali_Meaning": "নোট",
+			"Arabic_Term": "شِقَّةٌ"
+		}
+	]
+}
