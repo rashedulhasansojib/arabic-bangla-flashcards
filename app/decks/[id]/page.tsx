@@ -13,9 +13,15 @@ import {
 } from '@/components/ui/select';
 import { useToast } from '@/hooks/use-toast';
 import { getDueCards } from '@/lib/spaced-repetition';
-import { getCards, getDeck, setDecks, getDecks, updateCard } from '@/lib/storage';
+import {
+	getCards,
+	getDeck,
+	getDecks,
+	setDecks,
+	updateCard,
+} from '@/lib/storage';
 import type { Deck, Card as FlashCard } from '@/lib/types';
-import { ArrowLeft, Edit, Play, Search, Trash2, Plus, X } from 'lucide-react';
+import { ArrowLeft, Edit, Play, Plus, Search, Trash2, X } from 'lucide-react';
 import { useParams, useRouter } from 'next/navigation';
 import { useEffect, useState } from 'react';
 
@@ -51,8 +57,8 @@ export default function DeckDetailPage() {
 		const deckCards = allCardsData.filter((card) =>
 			loadedDeck.cardIds.includes(card.id)
 		);
-		const availableCardsData = allCardsData.filter((card) =>
-			!loadedDeck.cardIds.includes(card.id)
+		const availableCardsData = allCardsData.filter(
+			(card) => !loadedDeck.cardIds.includes(card.id)
 		);
 
 		const dueCardsForDeck = getDueCards(deckCards);
@@ -115,7 +121,8 @@ export default function DeckDetailPage() {
 		const newName = prompt('Enter new deck name:', deck?.name || '');
 		if (!newName || !newName.trim()) return;
 
-		const newDescription = prompt('Enter new deck description:', deck?.description || '') || '';
+		const newDescription =
+			prompt('Enter new deck description:', deck?.description || '') || '';
 
 		if (deck) {
 			const updatedDeck = {
@@ -126,21 +133,23 @@ export default function DeckDetailPage() {
 
 			// Update deck in storage
 			const allDecks = getDecks();
-			const updatedDecks = allDecks.map(d => d.id === deck.id ? updatedDeck : d);
+			const updatedDecks = allDecks.map((d) =>
+				d.id === deck.id ? updatedDeck : d
+			);
 			setDecks(updatedDecks);
 			setDeck(updatedDeck);
 
 			// Update module field for all cards in this deck
-			deck.cardIds.forEach(cardId => {
+			deck.cardIds.forEach((cardId) => {
 				updateCard(cardId, {
-					module: newName.trim()
+					module: newName.trim(),
 				});
 			});
 
 			// Update local cards state to reflect the change
-			setCards(prevCards => 
-				prevCards.map(card => 
-					deck.cardIds.includes(card.id) 
+			setCards((prevCards) =>
+				prevCards.map((card) =>
+					deck.cardIds.includes(card.id)
 						? { ...card, module: newName.trim() }
 						: card
 				)
@@ -148,7 +157,8 @@ export default function DeckDetailPage() {
 
 			toast({
 				title: 'Deck updated',
-				description: 'Deck details and all card modules have been updated successfully.',
+				description:
+					'Deck details and all card modules have been updated successfully.',
 			});
 		}
 	};
@@ -162,21 +172,23 @@ export default function DeckDetailPage() {
 		};
 
 		const allDecks = getDecks();
-		const updatedDecks = allDecks.map(d => d.id === deck.id ? updatedDeck : d);
+		const updatedDecks = allDecks.map((d) =>
+			d.id === deck.id ? updatedDeck : d
+		);
 		setDecks(updatedDecks);
 		setDeck(updatedDeck);
 
 		// Update the card's module to match the deck name
 		updateCard(cardId, {
-			module: deck.name
+			module: deck.name,
 		});
 
 		// Update local state
-		const addedCard = allCards.find(c => c.id === cardId);
+		const addedCard = allCards.find((c) => c.id === cardId);
 		if (addedCard) {
 			const updatedCard = { ...addedCard, module: deck.name };
-			setCards(prev => [...prev, updatedCard]);
-			setAvailableCards(prev => prev.filter(c => c.id !== cardId));
+			setCards((prev) => [...prev, updatedCard]);
+			setAvailableCards((prev) => prev.filter((c) => c.id !== cardId));
 		}
 
 		toast({
@@ -190,19 +202,21 @@ export default function DeckDetailPage() {
 
 		const updatedDeck = {
 			...deck,
-			cardIds: deck.cardIds.filter(id => id !== cardId),
+			cardIds: deck.cardIds.filter((id) => id !== cardId),
 		};
 
 		const allDecks = getDecks();
-		const updatedDecks = allDecks.map(d => d.id === deck.id ? updatedDeck : d);
+		const updatedDecks = allDecks.map((d) =>
+			d.id === deck.id ? updatedDeck : d
+		);
 		setDecks(updatedDecks);
 		setDeck(updatedDeck);
 
 		// Update local state
-		const removedCard = allCards.find(c => c.id === cardId);
+		const removedCard = allCards.find((c) => c.id === cardId);
 		if (removedCard) {
-			setCards(prev => prev.filter(c => c.id !== cardId));
-			setAvailableCards(prev => [...prev, removedCard]);
+			setCards((prev) => prev.filter((c) => c.id !== cardId));
+			setAvailableCards((prev) => [...prev, removedCard]);
 		}
 
 		toast({
@@ -275,25 +289,27 @@ export default function DeckDetailPage() {
 								</div>
 							</div>
 						</div>
-						<div className="flex gap-2">
+						<div className="flex flex-col gap-2 sm:flex-row sm:gap-2">
+							<div className="flex gap-2">
+								<Button
+									variant="outline"
+									className="group-edit hover:scale-105 transition-all duration-300 hover:shadow-md flex-1 sm:flex-none"
+									onClick={handleEditDeck}
+								>
+									<Edit className="mr-2 h-4 w-4 group-edit-hover:rotate-12 transition-transform duration-300" />
+									Edit Deck
+								</Button>
+								<Button
+									variant={isEditing ? 'default' : 'outline'}
+									className="group-edit hover:scale-105 transition-all duration-300 hover:shadow-md flex-1 sm:flex-none"
+									onClick={() => setIsEditing(!isEditing)}
+								>
+									<Plus className="mr-2 h-4 w-4 group-edit-hover:rotate-12 transition-transform duration-300" />
+									{isEditing ? 'Done Editing' : 'Add Cards'}
+								</Button>
+							</div>
 							<Button
-								variant="outline"
-								className="group-edit hover:scale-105 transition-all duration-300 hover:shadow-md"
-								onClick={handleEditDeck}
-							>
-								<Edit className="mr-2 h-4 w-4 group-edit-hover:rotate-12 transition-transform duration-300" />
-								Edit Deck
-							</Button>
-							<Button
-								variant={isEditing ? "default" : "outline"}
-								className="group-edit hover:scale-105 transition-all duration-300 hover:shadow-md"
-								onClick={() => setIsEditing(!isEditing)}
-							>
-								<Plus className="mr-2 h-4 w-4 group-edit-hover:rotate-12 transition-transform duration-300" />
-								{isEditing ? 'Done Editing' : 'Add Cards'}
-							</Button>
-							<Button
-								className="group-study hover:scale-105 transition-all duration-300 hover:shadow-lg"
+								className="group-study hover:scale-105 transition-all duration-300 hover:shadow-lg w-full sm:w-auto"
 								onClick={handleStudyNow}
 								disabled={dueCards.length === 0}
 							>

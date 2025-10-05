@@ -408,7 +408,10 @@ export default function DecksPage() {
 												Browse
 											</Button>
 										</Link>
-										<Link href="/quiz?returnTo=decks" className="flex-1">
+										<Link
+											href={`/quiz?returnTo=decks&deckId=${deck.id}`}
+											className="flex-1"
+										>
 											<Button
 												variant="outline"
 												className="w-full group-quiz hover:scale-105 transition-all duration-300 hover:shadow-md disabled:opacity-50"

@@ -101,7 +101,9 @@ export default function QuizPage() {
 			}
 
 			// Filter cards to only include those in this deck
-			const deckCards = allCards.filter(card => deck.cardIds.includes(card.id));
+			const deckCards = allCards.filter((card) =>
+				deck.cardIds.includes(card.id)
+			);
 			sessionCards = getSessionCards(deckCards, settings.cardsPerSession);
 		} else {
 			// Study all cards - use the new session composition logic that follows PRD priority order
