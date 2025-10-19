@@ -142,9 +142,10 @@
 	}
 
 	.arabic-text {
-		font-family: 'Amiri', 'Traditional Arabic', 'Arabic Typesetting', serif;
+		font-family: 'Noto Sans Arabic', 'Segoe UI', 'Tahoma', 'Arial', sans-serif;
 		font-size: 1.25em;
-		line-height: 1.8;
+		line-height: 1.6;
+		font-weight: 400;
 	}
 
 	/* Touch-friendly interactions */
@@ -383,15 +384,31 @@
 }
 
 /* Staggered animations for home page elements */
-.group-review-item:nth-child(1) { animation-delay: 0.1s; }
-.group-review-item:nth-child(2) { animation-delay: 0.2s; }
-.group-review-item:nth-child(3) { animation-delay: 0.3s; }
+.group-review-item:nth-child(1) {
+	animation-delay: 0.1s;
+}
+.group-review-item:nth-child(2) {
+	animation-delay: 0.2s;
+}
+.group-review-item:nth-child(3) {
+	animation-delay: 0.3s;
+}
 
-.group-box:nth-child(1) { animation-delay: 0.1s; }
-.group-box:nth-child(2) { animation-delay: 0.15s; }
-.group-box:nth-child(3) { animation-delay: 0.2s; }
-.group-box:nth-child(4) { animation-delay: 0.25s; }
-.group-box:nth-child(5) { animation-delay: 0.3s; }
+.group-box:nth-child(1) {
+	animation-delay: 0.1s;
+}
+.group-box:nth-child(2) {
+	animation-delay: 0.15s;
+}
+.group-box:nth-child(3) {
+	animation-delay: 0.2s;
+}
+.group-box:nth-child(4) {
+	animation-delay: 0.25s;
+}
+.group-box:nth-child(5) {
+	animation-delay: 0.3s;
+}
 
 /* Custom Keyframes */
 @keyframes slideInUp {
